@@ -1,0 +1,47 @@
+# Unity local/generated state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/MemoryCaptures/
+/Recordings/
+/TestResults/
+/Assets/AssetStoreTools/
+/Assets/**/Editor/**/Recordings/
+# Restore these VPM packages through Creator Companion; keep all manifests/locks.
+/Packages/com.vrchat.base/
+/Packages/com.vrchat.worlds/
+/Packages/com.vrchat.core.vpm-resolver/
+/Packages/dev.onevr.vrworldtoolkit/
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.pidb
+/*.booproj
+/*.unityproj
+/*.opendb
+/*.VC.db
+/.utmp/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+*.unitypackage
+*.vrchat
+*.vrcw
+*.vrca
+# Local secrets (keep documented examples)
+.env
+.env.*
+!.env.example
+# Do NOT ignore .meta, SerializedUdonPrograms, or UdonSharp program .asset files.
