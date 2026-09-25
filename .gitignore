@@ -9,6 +9,8 @@
 /MemoryCaptures/
 /Recordings/
 /TestResults/
+# ClientSim local Persistence data
+/ClientSimStorage/
 /Assets/AssetStoreTools/
 /Assets/**/Editor/**/Recordings/
 # Restore these VPM packages through Creator Companion; keep all manifests/locks.
