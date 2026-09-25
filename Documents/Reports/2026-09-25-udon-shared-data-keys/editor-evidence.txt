@@ -1,0 +1,12 @@
+Retrieved from live VRC.Udon.UdonBehaviour.GetProgramVariable, not proxy fields.
+UTC=2026-09-25T14:47:08.0811567Z
+Unity=2022.3.22f1
+CPU=Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+GPU=NVIDIA GeForce RTX 3070 Ti
+OS=Windows 11  (10.0.26200) 64bit
+VSync=0
+TargetFPS=72
+Resolution=1220x687
+Profiler=False
+Status=complete
+Failures=0

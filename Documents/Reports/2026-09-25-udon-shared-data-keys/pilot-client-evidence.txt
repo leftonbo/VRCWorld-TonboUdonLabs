@@ -1,0 +1,11 @@
+    VRChat Build: 2026.3.3-1917-ee11595942-Release
+    Processor Type: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+    Operating System: Windows 11  (10.0.26200)
+    Graphics Device Name: NVIDIA GeForce RTX 3070 Ti
+    Graphics Device Version: Direct3D 11.0 [level 11.1]
+2026.09.25 23:40:54 Debug      -  [SharedData] setup config=0 alias_ok=1 N=256 entries=128 frequency=10000000 highResolution=True environment=VRChat-client
+2026.09.25 23:41:05 Debug      -  [SharedData] setup config=1 alias_ok=1 N=512 entries=128 frequency=10000000 highResolution=True environment=VRChat-client
+2026.09.25 23:41:15 Debug      -  [SharedData] setup config=2 alias_ok=1 N=256 entries=1024 frequency=10000000 highResolution=True environment=VRChat-client
+2026.09.25 23:41:26 Debug      -  [SharedData] setup config=3 alias_ok=1 N=512 entries=1024 frequency=10000000 highResolution=True environment=VRChat-client
+2026.09.25 23:41:39 Debug      -  [SharedData] complete rows=7440
+2026.09.25 23:42:06 Debug      -  [SharedData] EXPORT_END rows=7440

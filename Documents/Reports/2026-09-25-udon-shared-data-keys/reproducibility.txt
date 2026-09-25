@@ -1,0 +1,11 @@
+Final source SHA256:
+SharedDataBenchmark.cs 11B66C63D039BAEB4167A2714BF49FA7C8E01107F47A1ED89AC7997B788DB7C4
+SharedDataTarget.cs FB9A6D450B30C9AC358EC6286DE5D35789628061AF2F67EDDC1FA131B1B4D83F
+SharedDataExperiment.cs 41519063BF8FF6B403E3A2D79C96220AE94407AD03C8D3AC9F04C5649B06A66B
+Bundle scene-standalonewindows64-shareddataexperiment-8aaa25de-1d3e-44a8-b493-5a694bf0bd7d.vrcw
+Bundle SHA256 FF6C290AA8E156DF22883204F6534E012EC38FD63197DD9EB640B92BAC12036A
+Power scheme: High performance (8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c)
+Client registry: windowed 1600x900, VSync=0, FPS_LIMIT_ENABLED=0; instantaneous FPS not captured.
+Client flags: --no-vr --enable-debug-gui --enable-sdk-log-levels --enable-udon-debug-logging --watch-worlds
+Single client at final measurement start; Unity and Codex open; no CPU affinity or thermal logging.
+Aborted mixed-client attempt: 2026-09-25 23:38 launch, 2 clients, no complete CSV; excluded.
