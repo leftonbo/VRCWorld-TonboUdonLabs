@@ -1,0 +1,6 @@
+Editor scene validation; not VRChat reproduction.
+UTC=2026-09-30T12:41:42.9135013Z
+GrowingScalars networkId=12 intCount=19 compiledSyncedFields=19 scriptGuid=5829b1f8df1a7ee458bd45caf5496d49 programGuid=46fc6484bbcef4b47b12814883e5d4b4
+Fixed27Scalars networkId=11 intCount=27 compiledSyncedFields=27 scriptGuid=032eae951acee1e4db624e142836143f programGuid=e11609d8d0b0bfe4cbf4560caa4d94fb
+Array27 networkId=10 intCount=27 compiledSyncedFields=1 scriptGuid=3a243cdddbd992c45b1a0b8d7fe5945f programGuid=bb46ad0bab566a14ba64f15161b71edd
+PASS scene, component markers, Manual sync, compiled field counts, stable IDs, 11 UI bindings, unlimited read-only export.

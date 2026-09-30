@@ -1,0 +1,5 @@
+Read-only restored pattern checks in Editor/ClientSim; no writes requested.
+UTC=2026-09-30T12:35:45.8078881Z
+case=1 PASS restored values=27 requests=0 schema=27
+case=2 PASS restored values=27 requests=0 schema=27
+case=0 PASS restored values=19 requests=0 schema=19

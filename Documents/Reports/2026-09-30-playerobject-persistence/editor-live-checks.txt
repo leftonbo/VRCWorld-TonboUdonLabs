@@ -1,0 +1,8 @@
+Live Udon VM checks in Editor/ClientSim; not real-client persistence evidence.
+UTC=2026-09-30T12:38:30.5612437Z
+case=0 PASS restored, ownership, pre-restore guard, invalid input, UI write, 19 values, expected comparison
+case=0 PASS synthetic null read, null-safe comparison, prefix preserves null, explicit null initialization
+case=1 PASS restored, ownership, pre-restore guard, invalid input, UI write, 27 values, expected comparison
+case=2 PASS restored, ownership, pre-restore guard, invalid input, UI write, 27 values, expected comparison
+PASS export includes restore and comparison events; no cloud-ack claim.
+PASS usage button and parameterless callback; exported three successful ClientSim post callbacks. Selection clamps oversized prefix; full write is independent of prefix input.
