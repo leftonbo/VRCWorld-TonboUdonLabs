@@ -46,4 +46,7 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+# VRWorldToolkit analytics
+Assets/_LastBuild
+Assets/_LastBuild.meta
 # Do NOT ignore .meta, SerializedUdonPrograms, or UdonSharp program .asset files.
