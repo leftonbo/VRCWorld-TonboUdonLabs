@@ -103,6 +103,7 @@ namespace App.AppEditor
 
             UdonSharpProgramAsset programAsset = ScriptableObject.CreateInstance<UdonSharpProgramAsset>();
             programAsset.sourceCsScript = script;
+            programAsset.ScriptVersion = UdonSharpProgramVersion.CurrentVersion;
             AssetDatabase.CreateAsset(programAsset, programAssetPath);
             AssetDatabase.ImportAsset(programAssetPath, ImportAssetOptions.ForceSynchronousImport);
             Debug.Log("[UdonSharp AutoGenerator] Created ProgramAsset: " + programAssetPath);

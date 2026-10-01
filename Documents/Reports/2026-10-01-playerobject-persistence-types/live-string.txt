@@ -1,0 +1,5 @@
+Editor/ClientSim Udon VM; not real-client persistence evidence.
+UTC=2026-09-30T19:20:23.5788419Z
+case=0 PASS typed values=26 comparison, UI write, restore guard, invalid seed and request-only
+case=1 PASS typed values=27 comparison, UI write, restore guard, invalid seed and request-only
+case=2 PASS typed values=27 comparison, UI write, restore guard, invalid seed and request-only

@@ -1,0 +1,2 @@
+PASS all 51 restored in ClientSim; automatic table, no writes. Not real-client persistence evidence.
+UTC=2026-09-30T20:25:43.2380840Z

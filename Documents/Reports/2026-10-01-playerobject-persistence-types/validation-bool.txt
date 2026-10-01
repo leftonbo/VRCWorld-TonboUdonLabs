@@ -1,0 +1,5 @@
+Editor validation; not real-client persistence evidence.
+UTC=2026-09-30T19:39:56.4344392Z
+Fields26 fields=26 type=bool networkId=11 scriptGuid=a2eb582c37505d3409c3b7a166bcbd8e programGuid=323d375af4f513841933689b17448890
+Fields27 fields=27 type=bool networkId=12 scriptGuid=c91e0dc21586f0146858cbc9778cc8fc programGuid=e686fc1c8dfe1a84dbe65cbab92ce6ad
+Array27 fields=1 type=int[] networkId=10 scriptGuid=3a243cdddbd992c45b1a0b8d7fe5945f programGuid=bb46ad0bab566a14ba64f15161b71edd

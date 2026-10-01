@@ -1,0 +1,2 @@
+PASS full asynchronous export; array shapes; manager-only storage API, initial/post-send updates and UI. ClientSim usage is not an accurate real-client measurement.
+UTC=2026-10-01T11:46:34.1782834Z

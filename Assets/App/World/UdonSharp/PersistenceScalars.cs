@@ -25,6 +25,15 @@ namespace App
         [UdonSynced] public int V017 = 0;
         [UdonSynced] public int V018 = 0;
         [UdonSynced] public int V019 = 0;
+        [UdonSynced] public int V020 = 0;
+        [UdonSynced] public int V021 = 0;
+        [UdonSynced] public int V022 = 0;
+        [UdonSynced] public int V023 = 0;
+        [UdonSynced] public int V024 = 0;
+        [UdonSynced] public int V025 = 0;
+        [UdonSynced] public int V026 = 0;
+        [UdonSynced] public int V027 = 0;
+        [UdonSynced] public int V028 = 0;
         // SCHEMA-END
     }
 }

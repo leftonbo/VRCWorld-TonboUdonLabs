@@ -1,0 +1,3 @@
+PASS 200 cases / 13191 values; fixed 1 + maximum +/-3; byte-width order; variable/array tail;
+PASS 92 retained schemas, Network IDs and Program GUIDs; 108 new IDs avoid historical IDs;
+PASS Editor TSV order, initial snapshots, all current matches and post-send success (not client persistence).

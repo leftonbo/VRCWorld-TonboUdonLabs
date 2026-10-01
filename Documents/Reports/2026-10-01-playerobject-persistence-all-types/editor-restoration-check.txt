@@ -1,0 +1,7 @@
+INCONCLUSIVE ClientSim re-entry; not real-client persistence evidence.
+SDK Worlds 3.10.5: ClientSimUdonEncodeDecode.GetJTokenFromObject encodes char with new DataToken(c).
+ClientSimUdonEncodeDecode.Get (line 138) decodes char with dataToken.String[0].
+Re-entry threw InvalidOperationException: Attempted to access Double token as String.
+Stack: Get -> Decode -> ClientSimNetworkIdHolder.Decode -> ClientSimNetworkingView.Decode -> ClientSimPlayerObjectStorage.Decode -> OnPlayerJoined.
+All-restored guard did not pass, so no successful restoration report or restored TSV was generated.
+SDK files unchanged. The fresh-session Udon VM write check passed independently for all 111 cases.

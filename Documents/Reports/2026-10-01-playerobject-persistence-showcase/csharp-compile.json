@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "isCompiling": false,
+  "isUpdating": false,
+  "domainReloadPending": false,
+  "lastCompilation": {
+    "finishedAtUtc": "2026-10-01T11:39:36.8131957Z",
+    "durationMs": 299,
+    "success": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "errors": [],
+    "warnings": [],
+    "truncated": false
+  }
+}
