@@ -46,6 +46,8 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+# Python cache
+__pycache__
 # VRWorldToolkit analytics
 Assets/_LastBuild
 Assets/_LastBuild.meta
