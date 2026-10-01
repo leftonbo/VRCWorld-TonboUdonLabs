@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+ARCHIVED = HERE.parents[1] / "Archived"
 raw = (HERE / "raw-editor-written.tsv").read_text(encoding="utf-8-sig")
 rows = list(csv.DictReader((line for line in raw.splitlines() if not line.startswith("#")), delimiter="\t"))
 types = ["int", "long", "float", "double", "bool", "string", "short", "byte", "sbyte", "ushort", "uint", "ulong", "char", "Vector2", "Vector3", "Vector4", "Quaternion", "Color", "Color32", "VRCUrl"]
@@ -31,7 +32,7 @@ def schema(path):
     return {row[0]: tuple(row[1:]) for row in rows}
 
 current = schema(HERE / "editor-validation.txt")
-old = schema(HERE.parent / "2026-10-01-playerobject-persistence-variable-array/editor-validation.txt")
+old = schema(ARCHIVED / "2026-10-01-playerobject-persistence-variable-array/editor-validation.txt")
 assert len(current) == 200 and len(old) == 92
 assert all(current[label] == values for label, values in old.items()), "Retained schema/identity changed"
 assert len({row[3] for row in current.values()}) == 200
@@ -40,9 +41,7 @@ for _, count, _, size, label, _, array in cases:
     assert tuple(map(int, row[:3])) == (1 if array else count, count, size)
 new_ids = {row[3] for label, row in current.items() if label not in old}
 historical_ids = set()
-for path in HERE.parent.glob("*playerobject*/editor-validation.txt"):
-    if path.parent == HERE:
-        continue
+for path in ARCHIVED.glob("*playerobject*/editor-validation.txt"):
     historical_ids.update(row[3] for row in schema(path).values())
 assert not new_ids.intersection(historical_ids), "A historical Network ID was reused"
 

@@ -1,6 +1,6 @@
 ---
 created_at: "2026-10-01T19:53:00+09:00"
-updated_at: "2026-10-01T20:13:09+09:00"
+updated_at: "2026-10-01T22:44:19+09:00"
 category: report
 tags: [vrchat, udon, persistence, array, storage-usage]
 status: completed
@@ -9,6 +9,9 @@ environment: "Unity 2022.3.22f1 / VRChat SDK Worlds 3.10.5"
 ---
 
 # string・VRCUrlの129フィールド以上とint・long配列を比較する92ケース
+
+> 過去の検証記録です。現在の構成・結果・操作手順は[最新レポート](../../Reports/2026-10-01-playerobject-persistence.md)を参照してください。
+> 以下のケース数・未確認事項・メニュー操作は当時の記録です。初期セットアップ用のエディタ拡張は削除済みです。
 
 シーンは `Assets/App/World/Scenes/PlayerObjectPersistenceBatch.unity`。
 [前回の実クライアント結果](../2026-10-01-playerobject-persistence-all-types/client-results-20261001-142619.md)で確認した固定長18型の境界2ケースずつを残し、string・VRCUrlと配列を増やした。

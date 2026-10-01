@@ -1,6 +1,6 @@
 ---
 created_at: "2026-10-01T05:16:00+09:00"
-updated_at: "2026-10-01T10:33:00+09:00"
+updated_at: "2026-10-01T22:44:19+09:00"
 category: report
 tags: [vrchat, udon, persistence, boundary, batch]
 status: in-progress
@@ -9,6 +9,9 @@ environment: "Unity 2022.3.22f1 / VRChat SDK Worlds 3.10.5"
 ---
 
 # 一括保存・Rejoinによる境界検証
+
+> 過去の検証記録です。現在の構成・結果・操作手順は[最新レポート](../../Reports/2026-10-01-playerobject-persistence.md)を参照してください。
+> 以下のケース数・未確認事項・メニュー操作は当時の記録です。初期セットアップ用のエディタ拡張は削除済みです。
 
 現在のシーンには[short・bool・byteの境界検証用70ケース](../2026-10-01-playerobject-persistence-batch-boundary/README.md)を追加し、合計121ケースにしている。
 次回の操作手順はリンク先を参照。以下の51ケースは初回検証の構成と記録。

@@ -1,6 +1,6 @@
 ---
 created_at: "2026-09-30T21:24:44+09:00"
-updated_at: "2026-09-30T21:40:00+09:00"
+updated_at: "2026-10-01T22:44:19+09:00"
 category: report
 tags: [vrchat, udon, persistence, player-object, rejoin]
 status: completed
@@ -10,6 +10,9 @@ environment: "Unity 2022.3.22f1 / VRChat Worlds and Base SDK 3.10.5 / bundled Ud
 ---
 
 # PlayerObjectの変数追加後に保存データが消える現象を切り分ける
+
+> 過去の検証記録です。現在の構成・結果・操作手順は[最新レポート](../Reports/2026-10-01-playerobject-persistence.md)を参照してください。
+> 以下のケース数・未確認事項・メニュー操作は当時の記録です。初期セットアップ用のエディタ拡張は削除済みです。
 
 専用シーン `Assets/App/World/Scenes/PlayerObjectPersistenceExperiment.unity` に、状態の読取り・書込み・比較・TSV出力を行うワールド配置UIを追加した。
 最初に19変数で保存とRejoinを確認し、同じワールド・同じオブジェクトを27変数に更新して、**書込み前の復元値**を採取する。

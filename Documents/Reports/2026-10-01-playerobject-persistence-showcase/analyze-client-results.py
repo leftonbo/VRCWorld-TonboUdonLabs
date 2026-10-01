@@ -15,7 +15,7 @@ if __name__ == "__main__":
     raw = HERE / "raw-client-restored-20261001-212152.tsv"
     rows = read(raw)
     expected = {r["case"]: r for r in read(HERE / "raw-editor-written.tsv")}
-    previous = {r["case"]: r for r in read(HERE.parent / "2026-10-01-playerobject-persistence-variable-array/raw-client-restored-20261001-201041.tsv")}
+    previous = {r["case"]: r for r in read(HERE.parents[1] / "Archived/2026-10-01-playerobject-persistence-variable-array/raw-client-restored-20261001-201041.tsv")}
     assert len(rows) == len({r["case"] for r in rows}) == 200
     assert [r["case"] for r in rows] == list(expected)
     assert sum(int(r["count"]) for r in rows) == 13191

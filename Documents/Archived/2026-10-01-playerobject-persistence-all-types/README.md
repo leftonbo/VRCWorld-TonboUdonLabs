@@ -1,6 +1,6 @@
 ---
 created_at: "2026-10-01T13:45:31+09:00"
-updated_at: "2026-10-01T19:27:00+09:00"
+updated_at: "2026-10-01T22:44:19+09:00"
 category: report
 tags: [vrchat, udon, persistence, boundary, batch, synced-types]
 status: completed
@@ -9,6 +9,9 @@ environment: "Unity 2022.3.22f1 / VRChat SDK Worlds 3.10.5"
 ---
 
 # 型ごとの保存境界を調べる111ケース
+
+> 過去の検証記録です。現在の構成・結果・操作手順は[最新レポート](../../Reports/2026-10-01-playerobject-persistence.md)を参照してください。
+> 以下のケース数・未確認事項・メニュー操作は当時の記録です。初期セットアップ用のエディタ拡張は削除済みです。
 
 シーンは `Assets/App/World/Scenes/PlayerObjectPersistenceBatch.unity`。
 [前回の121ケースの実クライアント結果](../2026-10-01-playerobject-persistence-batch-boundary/README.md)を踏まえ、境界から離れた104ケースをシーンから外し、94ケースを追加する。

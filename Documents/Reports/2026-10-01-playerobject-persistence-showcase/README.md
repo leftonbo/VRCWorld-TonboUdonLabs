@@ -1,6 +1,6 @@
 ---
 created_at: "2026-10-01T20:40:33+09:00"
-updated_at: "2026-10-01T21:45:00+09:00"
+updated_at: "2026-10-01T22:44:19+09:00"
 category: report
 tags: [vrchat, udon, persistence, showcase]
 status: completed
@@ -9,6 +9,8 @@ environment: "Windows / Unity 2022.3.22f1 / VRChat SDK 3.10.5 (bundled UdonSharp
 ---
 
 # 値幅順に並べた200ケースで保存境界を比較する
+
+[現在の検証概要と過去資料の一覧](../2026-10-01-playerobject-persistence.md)。
 
 `PlayerObjectPersistenceBatch`を、人に見せながら操作できる構成に整理した。
 固定長18型は各8ケースで、1個の対照と、これまでの最大保持数を中心に前後3個を載せる。
@@ -44,7 +46,7 @@ UIの「値B」は、その幅に個数を掛けた値。送信BやPlayerObject�
 4. 保存を押さず各ページの「復元」を確認する。記録するときは結果コピーを押す。
 
 保存とTSV出力は全ページが対象。ページ切り替えでは保存しない。
-説明板の数値は[以前の92ケースの実クライアント観測](../2026-10-01-playerobject-persistence-variable-array/client-results-20261001-201041.md)に基づく。
+説明板の数値は[以前の92ケースの実クライアント観測](../../Archived/2026-10-01-playerobject-persistence-variable-array/client-results-20261001-201041.md)に基づく。
 string・VRCUrlは512フィールド、int[]・long[]は1024要素の保持まで観測済みで、上限は見つかっていない。
 送信成功と容量更新はクラウド保存完了の通知ではない。
 
@@ -95,6 +97,6 @@ ClientSimの容量表示も、実クライアントの使用量と同じ測定�
 
 削除後のC#コンパイルはエラー・警告とも0で、検証シーンのMissing Script・Missing Prefabも0だった。
 3つの保存済みシーンのハッシュは整理前と一致し、200ケースの記録照合も通過した。
-新規304組のProgramAssetとSerializedUdonProgramは、対応するソース・meta・GUIDを揃えてコミット対象に含める。
-既存生成物は、共有プローブの新しい参照・型情報と実装更新に必要なArray27・Fixed27・Scalars・Labの4プログラムに限定する。
+新規304組のProgramAssetとSerializedUdonProgramは、対応するソース・meta・GUIDを揃えてコミットした。
+同コミットの既存生成物は、共有プローブの新しい参照・型情報と実装更新に必要なArray27・Fixed27・Scalars・Labの4プログラムに限定した。
 Scalarsの28フィールド構成と既存シーンのワールドIDも維持する。その他の再コンパイル差分は作業ツリーに残す。
