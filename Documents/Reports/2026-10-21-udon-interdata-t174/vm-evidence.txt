@@ -1,0 +1,21 @@
+Editor log line 3610
+[InterUdon] alias=True config=0 N=1 frequency=10000000 highResolution=True environment=Editor-UdonVM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRC.Udon.Wrapper.Modules.ExternUnityEngineDebug:__Log__SystemObject__SystemVoid (VRC.Udon.Common.Interfaces.IUdonHeap,System.Span`1<uint>)
+VRC.Udon.VM.UdonVM:Interpret ()
+VRC.Udon.UdonBehaviour:RunProgram (uint) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1157)
+VRC.Udon.UdonBehaviour:RunProgram (string) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1131)
+VRC.Udon.UdonBehaviour:SendCustomEvent (string) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:2105)
+VRC.Udon.ClientBindings.UdonEventScheduler:ProcessFrameEvents (VRC.Udon.Common.Enums.EventTiming)
+VRC.Udon.ClientBindings.UdonEventScheduler:RunScheduledEvents (VRC.Udon.Common.Enums.EventTiming)
+VRC.Udon.UdonManager:Update () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonManager.cs:431)
+
+Editor log line 3670
+[InterUdon] alias=True config=1 N=128 frequency=10000000 highResolution=True environment=Editor-UdonVM
+Editor log line 3708
+[InterUdon] alias=True config=2 N=512 frequency=10000000 highResolution=True environment=Editor-UdonVM
+Editor log line 3746
+[InterUdon] complete rows=5760 failures=0

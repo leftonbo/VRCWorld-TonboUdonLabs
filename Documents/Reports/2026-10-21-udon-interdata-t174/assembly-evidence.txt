@@ -1,0 +1,122 @@
+Generated caller UASM excerpts, Editor build
+Full generated UASM SHA256:
+8AB39BE2A4D281E8CE835F99EA58F5BF533821BC4CE8BC3A98AE14EE9100CD65
+Lines 2651-2698
+2651:         JUMP, 0x000053F8
+2652:         PUSH, __const_SystemInt32_3
+2653:         PUSH, __lcl_i_SystemInt32_0
+2654:         COPY
+2655:         PUSH, __lcl_i_SystemInt32_0
+2656:         PUSH, _n
+2657:         PUSH, __intnl_SystemBoolean_47
+2658:         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+2659:         PUSH, __intnl_SystemBoolean_47
+2660:         JUMP_IF_FALSE, 0x000042b0
+2661:         PUSH, __lcl_i_SystemInt32_0
+2662:         PUSH, __const_SystemInt32_1
+2663:         PUSH, __intnl_SystemInt32_45
+2664:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2665:         PUSH, Target
+2666:         PUSH, __const_SystemString_52
+2667:         PUSH, __lcl_i_SystemInt32_0
+2668:         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+2669:         PUSH, Target
+2670:         PUSH, __const_SystemString_53
+2671:         PUSH, __intnl_SystemInt32_45
+2672:         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+2673:         PUSH, Target
+2674:         PUSH, __const_SystemString_54
+2675:         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+2676:         PUSH, Target
+2677:         PUSH, __const_SystemString_55
+2678:         PUSH, __intnl_SystemObject_11
+2679:         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+2680:         PUSH, __intnl_SystemObject_11
+2681:         PUSH, __intnl_SystemInt32_46
+2682:         EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+2683:         PUSH, __lcl_sum_SystemInt32_1
+2684:         PUSH, __intnl_SystemInt32_46
+2685:         PUSH, __lcl_sum_SystemInt32_1
+2686:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2687:         PUSH, __lcl_i_SystemInt32_0
+2688:         PUSH, __const_SystemInt32_1
+2689:         PUSH, __lcl_i_SystemInt32_0
+2690:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2691:         JUMP, 0x00004188
+2692:         JUMP, 0x000053F8
+2693:         PUSH, __const_SystemInt32_3
+2694:         PUSH, __lcl_i_SystemInt32_0
+2695:         COPY
+2696:         PUSH, __lcl_i_SystemInt32_0
+2697:         PUSH, _n
+2698:         PUSH, __intnl_SystemBoolean_47
+Lines 2770-2838
+2770:         PUSH, __lcl_sum_SystemInt32_1
+2771:         PUSH, __intnl_SystemInt32_46
+2772:         PUSH, __lcl_sum_SystemInt32_1
+2773:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2774:         PUSH, __lcl_i_SystemInt32_0
+2775:         PUSH, __const_SystemInt32_1
+2776:         PUSH, __lcl_i_SystemInt32_0
+2777:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2778:         JUMP, 0x00004424
+2779:         JUMP, 0x000053F8
+2780:         PUSH, __const_SystemInt32_3
+2781:         PUSH, __lcl_i_SystemInt32_0
+2782:         COPY
+2783:         PUSH, __lcl_i_SystemInt32_0
+2784:         PUSH, _n
+2785:         PUSH, __intnl_SystemBoolean_47
+2786:         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+2787:         PUSH, __intnl_SystemBoolean_47
+2788:         JUMP_IF_FALSE, 0x000046d0
+2789:         PUSH, __lcl_i_SystemInt32_0
+2790:         PUSH, __intnl_VRCSDK3DataDataToken_15
+2791:         EXTERN, "VRCSDK3DataDataToken.__op_Implicit__SystemInt32__VRCSDK3DataDataToken"
+2792:         PUSH, _callList
+2793:         PUSH, __const_SystemInt32_3
+2794:         PUSH, __intnl_VRCSDK3DataDataToken_15
+2795:         EXTERN, "VRCSDK3DataDataList.__set_Item__SystemInt32_VRCSDK3DataDataToken__SystemVoid"
+2796:         PUSH, __lcl_i_SystemInt32_0
+2797:         PUSH, __const_SystemInt32_1
+2798:         PUSH, __intnl_SystemInt32_45
+2799:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2800:         PUSH, __intnl_SystemInt32_45
+2801:         PUSH, __intnl_VRCSDK3DataDataToken_16
+2802:         EXTERN, "VRCSDK3DataDataToken.__op_Implicit__SystemInt32__VRCSDK3DataDataToken"
+2803:         PUSH, _callList
+2804:         PUSH, __const_SystemInt32_1
+2805:         PUSH, __intnl_VRCSDK3DataDataToken_16
+2806:         EXTERN, "VRCSDK3DataDataList.__set_Item__SystemInt32_VRCSDK3DataDataToken__SystemVoid"
+2807:         PUSH, Target
+2808: # Cow dirty
+2809:         PUSH, Target
+2810:         PUSH, __intnl_VRCUdonUdonBehaviour_10
+2811:         COPY
+2812:         PUSH, __const_SystemString_59
+2813:         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+2814:         PUSH, _callList
+2815:         PUSH, __const_SystemInt32_9
+2816:         PUSH, __intnl_VRCSDK3DataDataToken_17
+2817:         EXTERN, "VRCSDK3DataDataList.__get_Item__SystemInt32__VRCSDK3DataDataToken"
+2818:         PUSH, __intnl_VRCSDK3DataDataToken_17
+2819:         PUSH, __intnl_SystemInt32_46
+2820:         EXTERN, "VRCSDK3DataDataToken.__get_Int__SystemInt32"
+2821:         PUSH, __lcl_sum_SystemInt32_1
+2822:         PUSH, __intnl_SystemInt32_46
+2823:         PUSH, __lcl_sum_SystemInt32_1
+2824:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2825:         PUSH, __lcl_i_SystemInt32_0
+2826:         PUSH, __const_SystemInt32_1
+2827:         PUSH, __lcl_i_SystemInt32_0
+2828:         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+2829:         JUMP, 0x00004564
+2830:         JUMP, 0x000053F8
+2831:         PUSH, __const_SystemInt32_3
+2832:         PUSH, __lcl_i_SystemInt32_0
+2833:         COPY
+2834:         PUSH, __lcl_i_SystemInt32_0
+2835:         PUSH, _n
+2836:         PUSH, __intnl_SystemBoolean_47
+2837:         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+2838:         PUSH, __intnl_SystemBoolean_47
