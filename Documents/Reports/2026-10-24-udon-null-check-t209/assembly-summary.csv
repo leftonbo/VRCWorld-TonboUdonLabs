@@ -1,0 +1,16 @@
+type,method,first_line,last_line,instructions,push,copy,extern
+gameobject,ne,1292,1301,10,7,2,1
+gameobject,valid,1331,1333,3,2,0,1
+gameobject,implicit,1363,1365,3,2,0,1
+material,ne,1395,1404,10,7,2,1
+material,valid,1434,1436,3,2,0,1
+material,implicit,1466,1468,3,2,0,1
+transform,ne,1498,1507,10,7,2,1
+transform,valid,1537,1539,3,2,0,1
+transform,implicit,1569,1571,3,2,0,1
+udonbehaviour,ne,1601,1610,10,7,2,1
+udonbehaviour,valid,1640,1642,3,2,0,1
+udonbehaviour,implicit,1672,1674,3,2,0,1
+object,ne,1704,1710,7,5,1,1
+object,valid,1740,1742,3,2,0,1
+object,implicit,1772,1774,3,2,0,1

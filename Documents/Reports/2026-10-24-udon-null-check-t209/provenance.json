@@ -1,0 +1,49 @@
+{
+  "captured_at": "2026-10-24T19:43:21.751359+09:00",
+  "git_head": "dd1a4ed2fe1f593a328b10d15b73d5e42ed1a337",
+  "branch": "main",
+  "initial_worktree": "clean",
+  "initial_staging": "empty",
+  "runtime_source_identical_in_both_sessions": true,
+  "hash_algorithm": "sha256",
+  "hashes": {
+    "Assets/App/World/UdonSharp/NullCheckBenchmark.cs": "cd7b04c8f774621edf213df796281409515d322878ff7e3ede835503ad1ce9fa",
+    "Assets/App/World/UdonSharp/NullCheckTarget.cs": "4dbe004698f346207ff56ff4ee9dbea7d10ef30785e482383f00132d111494d5",
+    "Assets/App/Editor/NullCheckExperiment.cs": "894199aa91fb8bff55108f094283d1ceb111825ebb832296e555377f9b6e06f7",
+    "ProjectSettings/ProjectVersion.txt": "0599d0a5e5f574ce3aaf02f6f98a477bd75b97ddd6a1cf9a9466c603c3d7b6ca",
+    "Packages/manifest.json": "0670de5d85ce85e0c2a4fc6fb6ba9780491443e8d04f0590d45687bbdf665314",
+    "Packages/packages-lock.json": "362d80cff95bf8da2262fcc8a1872ff96d444141a8179e690f7c1575d4290d6a",
+    "Packages/vpm-manifest.json": "2e31d4c06022866131bf4276d28da1b31db35ffc02d67392d0c8f6013db52deb",
+    "Packages/com.vrchat.worlds/package.json": "70701aa8049b1e892e8fa80cf75828f76b51468394b5a6e880836e12e9322d79",
+    "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/Binder/BoundNodes/BoundArrayAccessExpression.cs": "a75c1f495b9c07f4d778d766e13cf88f9eb18a50969469cbb5ba42bca92a8209",
+    "Packages/com.vrchat.worlds/Runtime/Udon/External/VRC.Udon.VM.dll": "fd729be759febfc2dd025bb20adb74f9f7cb87b3de9136785f57c0e557401a56",
+    "Packages/com.vrchat.worlds/Runtime/Udon/External/VRC.Udon.Wrapper.dll": "c0154331a9edf6259b5b22baf4cccc526b3fb09b58b499c014a50c074375e1ee",
+    "Packages/com.vrchat.worlds/Runtime/Udon/External/VRC.Udon.VRCWrapperModules.dll": "0fea1468aa5eba319a4e7e7afd783565201f80efa1aaff558aebaeb465fe46b7",
+    "Assets/App/World/Scenes/NullCheckExperiment.unity": "2eca31e4d0ad3c7c6bc6114d1816e0d687af8f7b8dc58d7764c0e4fed0b08895"
+  },
+  "existing_generated_status_m": [
+    "Assets/SerializedUdonPrograms/17830d157f00b09408e9c38c2091a851.asset",
+    "Assets/SerializedUdonPrograms/22d6555dec184574292fe67ff1565739.asset",
+    "Assets/SerializedUdonPrograms/33324f447d661da40b534c9fa93c0ec2.asset",
+    "Assets/SerializedUdonPrograms/347b38a8c21506746b53ee71710b7334.asset",
+    "Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset",
+    "Assets/SerializedUdonPrograms/667c46fd2864a124ea921d98d4914fe5.asset",
+    "Assets/SerializedUdonPrograms/75f3b7bb830f4324a8b2f49814f3493a.asset",
+    "Assets/SerializedUdonPrograms/88c33cafb682e48458b84e76c7092a13.asset",
+    "Assets/SerializedUdonPrograms/96ee11c7074d21e4f84d189ad35d45fc.asset",
+    "Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset",
+    "Assets/SerializedUdonPrograms/daabb64559a2f584b92ba1d27083b287.asset",
+    "Assets/SerializedUdonPrograms/e47aa03d990a9af47aa929623eaa5db0.asset",
+    "Assets/SerializedUdonPrograms/fa52d8b703fd906459112715b1ef1f3a.asset"
+  ],
+  "existing_generated_content_diffs": [
+    "Assets/SerializedUdonPrograms/347b38a8c21506746b53ee71710b7334.asset",
+    "Assets/SerializedUdonPrograms/88c33cafb682e48458b84e76c7092a13.asset"
+  ],
+  "editor_source_change_after_measurement": "Added initial scene save guard and runtime metadata export only; runtime source unchanged.",
+  "measurement_sessions": {
+    "session-1": "2026-10-24T19:33-19:34+09:00",
+    "primary_session_2": "2026-10-24T19:34-19:35+09:00"
+  },
+  "diagnostic_play": "2026-10-24T19:37+09:00"
+}

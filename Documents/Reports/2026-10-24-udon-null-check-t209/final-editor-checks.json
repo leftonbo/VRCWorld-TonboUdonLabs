@@ -1,0 +1,21 @@
+{
+  "editor": {
+    "isPlaying": false,
+    "isPaused": false,
+    "isCompiling": false,
+    "timeSinceStartup": 1306.6307531,
+    "unityVersion": "2022.3.22f1",
+    "platform": "WindowsEditor"
+  },
+  "scene": {
+    "sceneName": "NullCheckExperiment",
+    "scenePath": "Assets/App/World/Scenes/NullCheckExperiment.unity",
+    "isDirty": false,
+    "rootObjectCount": 9
+  },
+  "errors": {
+    "count": 0,
+    "logs": [],
+    "source": "console"
+  }
+}

@@ -1,0 +1,20 @@
+Read from live VRC.Udon.UdonBehaviour heap; no proxy method timing.
+UTC=2026-10-24T10:35:32.3679973Z
+Project=K:/MagdraTonbo/Projects/VRChat/VRCWorld-TonboUdonLabs/Assets
+Unity=2022.3.22f1
+CPU=Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+GPU=NVIDIA GeForce RTX 3070 Ti
+OS=Windows 11  (10.0.26200) 64bit
+VSync=0
+TargetFPS=72
+Resolution=1220x687
+Profiler=False
+DeepProfile=False
+Frame=3316
+Program=NullCheckBenchmark
+Rows=8160
+Failures=0
+DestroyedGameObject:CLRNull=False,UnityNull=True
+DestroyedTransform:CLRNull=False,UnityNull=True
+DestroyedMaterial:CLRNull=False,UnityNull=True
+DestroyedUdon:CLRNull=False,UnityNull=True

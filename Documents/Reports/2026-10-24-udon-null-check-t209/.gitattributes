@@ -1,0 +1,4 @@
+# Preserve measured raw bytes so the recorded SHA256 survives clone/checkout.
+raw-editor.csv -text whitespace=cr-at-eol
+session-1/raw-editor.csv -text whitespace=cr-at-eol
+NullCheckBenchmark.uasm -text

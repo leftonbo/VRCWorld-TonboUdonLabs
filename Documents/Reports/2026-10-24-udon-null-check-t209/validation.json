@@ -1,0 +1,15 @@
+{
+  "rows": 8160,
+  "semantic_rows": 64,
+  "checksums": true,
+  "complete_grid": true,
+  "unique_keys": true,
+  "order": true,
+  "excluded_rows": 0,
+  "frequencies": [
+    10000000
+  ],
+  "zero_ticks": 0,
+  "sha256": "7799a9a1d527f3b0730c307bc25edfaae55c813228490f0587cfd3147c042a5a",
+  "bootstrap": "2000 paired-sample resamples, seed 209; descriptive within-session CI, no multiplicity correction"
+}

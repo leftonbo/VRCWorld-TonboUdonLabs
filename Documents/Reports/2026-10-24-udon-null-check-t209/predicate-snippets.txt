@@ -1,0 +1,106 @@
+gameobject/ne lines 1292-1301
+PUSH, __lcl_obj_UnityEngineGameObject_0
+PUSH, __intnl_UnityEngineObject_4
+COPY
+PUSH, __const_SystemObject_0
+PUSH, __intnl_UnityEngineObject_5
+COPY
+PUSH, __intnl_UnityEngineObject_4
+PUSH, __intnl_UnityEngineObject_5
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+
+gameobject/valid lines 1331-1333
+PUSH, __lcl_obj_UnityEngineGameObject_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+
+gameobject/implicit lines 1363-1365
+PUSH, __lcl_obj_UnityEngineGameObject_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+
+material/ne lines 1395-1404
+PUSH, __lcl_obj_UnityEngineMaterial_0
+PUSH, __intnl_UnityEngineObject_4
+COPY
+PUSH, __const_SystemObject_0
+PUSH, __intnl_UnityEngineObject_5
+COPY
+PUSH, __intnl_UnityEngineObject_4
+PUSH, __intnl_UnityEngineObject_5
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+
+material/valid lines 1434-1436
+PUSH, __lcl_obj_UnityEngineMaterial_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+
+material/implicit lines 1466-1468
+PUSH, __lcl_obj_UnityEngineMaterial_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+
+transform/ne lines 1498-1507
+PUSH, __lcl_obj_UnityEngineTransform_0
+PUSH, __intnl_UnityEngineObject_4
+COPY
+PUSH, __const_SystemObject_0
+PUSH, __intnl_UnityEngineObject_5
+COPY
+PUSH, __intnl_UnityEngineObject_4
+PUSH, __intnl_UnityEngineObject_5
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+
+transform/valid lines 1537-1539
+PUSH, __lcl_obj_UnityEngineTransform_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+
+transform/implicit lines 1569-1571
+PUSH, __lcl_obj_UnityEngineTransform_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+
+udonbehaviour/ne lines 1601-1610
+PUSH, __lcl_obj_VRCUdonUdonBehaviour_0
+PUSH, __intnl_UnityEngineObject_4
+COPY
+PUSH, __const_SystemObject_0
+PUSH, __intnl_UnityEngineObject_5
+COPY
+PUSH, __intnl_UnityEngineObject_4
+PUSH, __intnl_UnityEngineObject_5
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+
+udonbehaviour/valid lines 1640-1642
+PUSH, __lcl_obj_VRCUdonUdonBehaviour_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+
+udonbehaviour/implicit lines 1672-1674
+PUSH, __lcl_obj_VRCUdonUdonBehaviour_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+
+object/ne lines 1704-1710
+PUSH, __const_SystemObject_0
+PUSH, __intnl_UnityEngineObject_4
+COPY
+PUSH, __lcl_obj_UnityEngineObject_0
+PUSH, __intnl_UnityEngineObject_4
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+
+object/valid lines 1740-1742
+PUSH, __lcl_obj_UnityEngineObject_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+
+object/implicit lines 1772-1774
+PUSH, __lcl_obj_UnityEngineObject_0
+PUSH, __intnl_SystemBoolean_34
+EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"

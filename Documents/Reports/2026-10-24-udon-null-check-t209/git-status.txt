@@ -1,0 +1,54 @@
+ M Assets/SerializedUdonPrograms/17830d157f00b09408e9c38c2091a851.asset
+ M Assets/SerializedUdonPrograms/22d6555dec184574292fe67ff1565739.asset
+ M Assets/SerializedUdonPrograms/33324f447d661da40b534c9fa93c0ec2.asset
+ M Assets/SerializedUdonPrograms/347b38a8c21506746b53ee71710b7334.asset
+ M Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset
+ M Assets/SerializedUdonPrograms/667c46fd2864a124ea921d98d4914fe5.asset
+ M Assets/SerializedUdonPrograms/75f3b7bb830f4324a8b2f49814f3493a.asset
+ M Assets/SerializedUdonPrograms/88c33cafb682e48458b84e76c7092a13.asset
+ M Assets/SerializedUdonPrograms/96ee11c7074d21e4f84d189ad35d45fc.asset
+ M Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset
+ M Assets/SerializedUdonPrograms/daabb64559a2f584b92ba1d27083b287.asset
+ M Assets/SerializedUdonPrograms/e47aa03d990a9af47aa929623eaa5db0.asset
+ M Assets/SerializedUdonPrograms/fa52d8b703fd906459112715b1ef1f3a.asset
+?? Assets/App/Editor/NullCheckExperiment.cs
+?? Assets/App/Editor/NullCheckExperiment.cs.meta
+?? Assets/App/World/Materials.meta
+?? Assets/App/World/Materials/NullCheckInput.mat
+?? Assets/App/World/Materials/NullCheckInput.mat.meta
+?? Assets/App/World/Scenes/NullCheckExperiment.unity
+?? Assets/App/World/Scenes/NullCheckExperiment.unity.meta
+?? Assets/App/World/UdonSharp/NullCheckBenchmark.asset
+?? Assets/App/World/UdonSharp/NullCheckBenchmark.asset.meta
+?? Assets/App/World/UdonSharp/NullCheckBenchmark.cs
+?? Assets/App/World/UdonSharp/NullCheckBenchmark.cs.meta
+?? Assets/App/World/UdonSharp/NullCheckTarget.asset
+?? Assets/App/World/UdonSharp/NullCheckTarget.asset.meta
+?? Assets/App/World/UdonSharp/NullCheckTarget.cs
+?? Assets/App/World/UdonSharp/NullCheckTarget.cs.meta
+?? Assets/SerializedUdonPrograms/8ce248e197c32d1419619b6eaee6aed8.asset
+?? Assets/SerializedUdonPrograms/8ce248e197c32d1419619b6eaee6aed8.asset.meta
+?? Assets/SerializedUdonPrograms/bc34b093d89c2434fa88e6fe3a1a7376.asset
+?? Assets/SerializedUdonPrograms/bc34b093d89c2434fa88e6fe3a1a7376.asset.meta
+?? Documents/Reports/2026-10-24-udon-null-check-t209.md
+?? Documents/Reports/2026-10-24-udon-null-check-t209/NullCheckBenchmark.uasm
+?? Documents/Reports/2026-10-24-udon-null-check-t209/analyze.py
+?? Documents/Reports/2026-10-24-udon-null-check-t209/analyze_assembly.py
+?? Documents/Reports/2026-10-24-udon-null-check-t209/assembly-summary.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/comparisons.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/compile-evidence.txt
+?? Documents/Reports/2026-10-24-udon-null-check-t209/editor-evidence.txt
+?? Documents/Reports/2026-10-24-udon-null-check-t209/final-editor-checks.json
+?? Documents/Reports/2026-10-24-udon-null-check-t209/pilot-compile-diagnostics.json
+?? Documents/Reports/2026-10-24-udon-null-check-t209/predicate-snippets.txt
+?? Documents/Reports/2026-10-24-udon-null-check-t209/raw-editor.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/runtime-metadata.txt
+?? Documents/Reports/2026-10-24-udon-null-check-t209/semantics-editor.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/comparisons.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/editor-evidence.txt
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/raw-editor.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/semantics-editor.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/summary.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/session-1/validation.json
+?? Documents/Reports/2026-10-24-udon-null-check-t209/summary.csv
+?? Documents/Reports/2026-10-24-udon-null-check-t209/validation.json

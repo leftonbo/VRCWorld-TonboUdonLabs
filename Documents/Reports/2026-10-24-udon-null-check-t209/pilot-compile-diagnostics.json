@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "result": {
+    "count": 2,
+    "logs": [
+      {
+        "type": "Error",
+        "message": "[<color=#FF00FF>UdonSharp</color>] Assets/App/World/UdonSharp/NullCheckBenchmark.cs(62,33): Method is not exposed to Udon: 'new Material(AssetReference)'\n",
+        "file": "Assets/App/World/UdonSharp/NullCheckBenchmark.cs",
+        "line": 62
+      },
+      {
+        "type": "Error",
+        "message": "InvalidOperationException: No compiled Udon program/assembly.\nApp.AppEditor.NullCheckExperiment.Compile () (at Assets/App/Editor/NullCheckExperiment.cs:46)\nUnityEditor.EditorApplication:ExecuteMenuItem(String)\nUnitySkills.EditorSkills:EditorExecuteMenu(String) (at ./Library/PackageCache/com.besty.unity-skills@c479dd0c5b/Editor/Skills/EditorSkills.cs:384)\nSystem.Reflection.MethodBase:Invoke(Object, Object[])\nUnitySkills.SkillRouter:Execute(String, String, Boolean) (at ./Library/PackageCache/com.b...",
+        "file": "Assets/App/Editor/NullCheckExperiment.cs",
+        "line": 46
+      }
+    ],
+    "source": "console"
+  }
+}

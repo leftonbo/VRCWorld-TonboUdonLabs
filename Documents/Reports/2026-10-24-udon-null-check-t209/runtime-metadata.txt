@@ -1,0 +1,11 @@
+UTC=2026-10-24T10:37:24.2525176Z
+Frame=463
+VM=VRC.Udon.VM.UdonVM, VRC.Udon.VM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Heap=VRC.Udon.Common.UdonHeap, VRC.Udon.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Program=VRC.Udon.Common.UdonProgram, VRC.Udon.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+UdonDebugLogging=True
+UdonSharpRuntimeAssembly=UdonSharp.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+UdonSharpCompilerAssembly=UdonSharp.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+ClientSimComponent=VRC.SDK3.ClientSim.Persistence.ClientSimPlayerObjectStorage
+ClientSimComponent=VRC.SDK3.ClientSim.Persistence.ClientSimPlayerDataStorage
+ClientSimComponent=VRC.SDK3.ClientSim.ClientSimStackedVRCameraSystem
