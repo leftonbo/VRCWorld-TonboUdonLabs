@@ -1,0 +1,12 @@
+UTC=2026-10-27T04:21:12.2501159Z
+SDKBuilderAvailable=True
+SDKLoggedIn=True
+BuildAttempt1=Udon client compile rejected Application.unityVersion; corrected metadata only. API stopped responding; restarted only task-launched Editor after saved CSV/scene.
+
+ScheduledBuildUTC=2026-10-27T04:30:04.3062378Z
+StartedBuildUTC=2026-10-27T04:30:04.3289111Z
+BuildAttempt2=Udon client compile rejected SystemInfo.operatingSystem; removed all runtime hardware metadata getters and use standard client log instead.
+
+ScheduledBuildUTC=2026-10-27T04:32:31.6608818Z
+StartedBuildUTC=2026-10-27T04:32:31.7088281Z
+BuildAndTest=completed UTC=2026-10-27T04:33:27.8119724Z

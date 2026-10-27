@@ -1,0 +1,20 @@
+UTC=2026-10-27T04:19:55.2082783Z
+Frame=12508
+Rows=9600
+Failures=0
+VM=VRC.Udon.VM.UdonVM, VRC.Udon.VM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Program=VRC.Udon.Common.UdonProgram, VRC.Udon.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+UdonDebugLogging=True
+Unity=2022.3.22f1
+UdonSharpRuntimeAssembly=UdonSharp.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+UdonSharpCompilerAssembly=UdonSharp.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+OS=Windows 11  (10.0.26200) 64bit
+CPU=Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+GPU=NVIDIA GeForce RTX 3070 Ti
+Resolution=1220x687
+TargetFPS=72
+VSync=0
+Profiler=False
+ClientSimComponent=VRC.SDK3.ClientSim.Persistence.ClientSimPlayerObjectStorage
+ClientSimComponent=VRC.SDK3.ClientSim.Persistence.ClientSimPlayerDataStorage
+ClientSimComponent=VRC.SDK3.ClientSim.ClientSimStackedVRCameraSystem

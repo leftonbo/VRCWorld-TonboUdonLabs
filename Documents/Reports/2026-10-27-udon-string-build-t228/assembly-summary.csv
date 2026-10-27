@@ -1,0 +1,16 @@
+method,instructions,PUSH,COPY,JUMP,JUMP_IF_FALSE,JUMP_INDIRECT,EXTERN,append_string,append_int,string_concat
+Start,9,6,1,0,0,1,1,0,0,0
+_Begin,166,108,12,7,8,2,29,0,0,3
+_Preflight,306,206,25,9,10,4,52,0,0,13
+Setup,201,130,16,12,13,1,29,0,0,5
+_Next,406,281,27,8,13,3,74,0,0,41
+Run,273,171,22,27,11,3,39,0,0,0
+Baseline,10,5,3,0,0,2,0,0,0,0
+PlusExpression,180,124,9,3,5,4,35,0,0,15
+PlusSteps,209,147,6,5,5,2,44,0,0,24
+SbNewSplit,205,144,4,5,5,2,45,23,1,0
+SbNewChain,205,144,4,5,5,2,45,23,1,0
+SbCapacitySplit,206,145,4,5,5,2,45,23,1,0
+SbCapacityChain,206,145,4,5,5,2,45,23,1,0
+SbReuseSplit,209,147,5,5,5,2,45,23,1,0
+SbReuseChain,208,146,5,5,5,2,45,23,1,0

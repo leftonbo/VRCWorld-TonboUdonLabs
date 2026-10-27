@@ -1,0 +1,8 @@
+VRChat Build: 2026.4.1-1935-a61ceb9d89-Release
+Unity Version: 6000.0.67f1-DWR
+Processor Type: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+Operating System: Windows 11  (10.0.26200)
+2026.10.27 13:34:00 Debug      -  [StringBuild] begin frequency=10000000 highResolution=True
+2026.10.27 13:35:14 Debug      -  [StringBuild] complete rows=9600 failures=0
+2026.10.27 13:35:14 Debug      -  [StringBuildMeta] highResolution=True
+2026.10.27 13:37:44 Debug      -  [StringBuildCSV-END] chars=879053 rows=9600 failures=0

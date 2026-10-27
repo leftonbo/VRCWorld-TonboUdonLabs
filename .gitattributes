@@ -45,3 +45,6 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
+# Preserve measured CSV bytes for reproducible SHA-256 verification after checkout.
+Documents/Reports/2026-10-27-udon-string-build-t228/raw-editor.csv -text
+Documents/Reports/2026-10-27-udon-string-build-t228/raw-client.csv -text

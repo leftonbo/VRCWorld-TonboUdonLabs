@@ -1,0 +1,19 @@
+{
+  "rows": 9600,
+  "semantic_rows": null,
+  "checksums": true,
+  "complete_grid": true,
+  "unique_keys": true,
+  "order": true,
+  "excluded_rows": 0,
+  "environments": [
+    "VRChat-client"
+  ],
+  "frequencies": [
+    10000000
+  ],
+  "zero_ticks": 0,
+  "max_batch_ms": 37.369899999999994,
+  "sha256": "6371a7ae4b0895fc4420804140d444a47e91713ada197711a410a914ebc315f8",
+  "bootstrap": "2000 paired resamples, seed 228; descriptive within-session CI; no multiplicity correction"
+}

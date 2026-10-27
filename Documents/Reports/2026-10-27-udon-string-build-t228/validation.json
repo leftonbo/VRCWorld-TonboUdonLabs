@@ -1,0 +1,19 @@
+{
+  "rows": 9600,
+  "semantic_rows": 288,
+  "checksums": true,
+  "complete_grid": true,
+  "unique_keys": true,
+  "order": true,
+  "excluded_rows": 0,
+  "environments": [
+    "Editor-UdonVM"
+  ],
+  "frequencies": [
+    10000000
+  ],
+  "zero_ticks": 0,
+  "max_batch_ms": 169.08409999999998,
+  "sha256": "728c1bdf8f875f2f466789119f8eeda60b0f58f12dca4ad28b347862b0c31ded",
+  "bootstrap": "2000 paired resamples, seed 228; descriptive within-session CI; no multiplicity correction"
+}

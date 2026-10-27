@@ -1,0 +1,3653 @@
+.data_start
+    .export Warmups
+    .export Batches
+    .export StartDelayFrames
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Warmups: %SystemInt32, null
+    Batches: %SystemInt32, null
+    StartDelayFrames: %SystemInt32, null
+    Complete: %SystemBoolean, null
+    Rows: %SystemInt32, null
+    Failures: %SystemInt32, null
+    LastCsv: %SystemString, null
+    SemanticsCsv: %SystemString, null
+    Status: %SystemString, null
+    LastOutput: %SystemString, null
+    _names: %SystemStringArray, null
+    _fragments: %SystemStringArray, null
+    _labels: %SystemStringArray, null
+    _strings: %SystemStringArray, null
+    _values: %SystemInt32Array, null
+    _reuse: %SystemTextStringBuilder, null
+    _csv: %SystemTextStringBuilder, null
+    _semantics: %SystemTextStringBuilder, null
+    _expected: %SystemString, null
+    _environment: %SystemString, null
+    _config: %SystemInt32, null
+    _run: %SystemInt32, null
+    _phase: %SystemInt32, null
+    _position: %SystemInt32, null
+    _n: %SystemInt32, null
+    _workload: %SystemInt32, null
+    _lines: %SystemInt32, null
+    _capacity: %SystemInt32, null
+    _preflightInput: %SystemInt32, null
+    _frequency: %SystemInt64, null
+    _active: %SystemBoolean, null
+    _exportOffset: %SystemInt32, null
+    _exportText: %SystemString, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemInt32_4: %SystemInt32, null
+    __const_SystemInt32_5: %SystemInt32, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemInt32_6: %SystemInt32, null
+    __const_SystemInt32_7: %SystemInt32, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_6: %SystemString, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_8: %SystemInt32, null
+    __const_SystemInt32_9: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __0___0_Run__ret: %SystemInt32, null
+    __0_c__param: %SystemInt32, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemInt32_10: %SystemInt32, null
+    __const_SystemInt32_11: %SystemInt32, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemString_8: %SystemString, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemString_9: %SystemString, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __const_SystemString_12: %SystemString, null
+    __const_SystemInt32_12: %SystemInt32, null
+    __const_SystemInt32_13: %SystemInt32, null
+    __const_SystemInt32_14: %SystemInt32, null
+    __const_SystemInt32_15: %SystemInt32, null
+    __const_SystemInt32_16: %SystemInt32, null
+    __const_SystemString_13: %SystemString, null
+    __const_SystemString_14: %SystemString, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemString_16: %SystemString, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __const_SystemString_17: %SystemString, null
+    __const_SystemString_18: %SystemString, null
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __const_SystemString_21: %SystemString, null
+    __const_SystemString_22: %SystemString, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemString_23: %SystemString, null
+    __const_SystemString_24: %SystemString, null
+    __const_SystemString_25: %SystemString, null
+    __this_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, this
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemInt32_17: %SystemInt32, null
+    __const_SystemString_26: %SystemString, null
+    __const_SystemString_27: %SystemString, null
+    __this_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, this
+    __const_SystemString_28: %SystemString, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemString_29: %SystemString, null
+    __gintnl_SystemUInt32Array_0: %SystemUInt32Array, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __0_Baseline__ret: %SystemString, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __0_PlusExpression__ret: %SystemString, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __0_PlusSteps__ret: %SystemString, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __0_SbNewSplit__ret: %SystemString, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __0_SbNewChain__ret: %SystemString, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __0_SbCapacitySplit__ret: %SystemString, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __0_SbCapacityChain__ret: %SystemString, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __0_SbReuseSplit__ret: %SystemString, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __0_SbReuseChain__ret: %SystemString, null
+    __const_SystemInt32_18: %SystemInt32, null
+    __const_SystemInt32_19: %SystemInt32, null
+    __const_SystemString_30: %SystemString, null
+    __const_SystemString_31: %SystemString, null
+    __const_SystemString_32: %SystemString, null
+    __const_SystemString_33: %SystemString, null
+    __const_SystemString_34: %SystemString, null
+    __const_SystemString_35: %SystemString, null
+    __const_SystemString_36: %SystemString, null
+    __const_SystemString_37: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_0: %SystemTextStringBuilder, null
+    __lcl_j_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_1: %SystemTextStringBuilder, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemString_5: %SystemString, null
+    __lcl_c_SystemInt32_0: %SystemInt32, null
+    __lcl_sum_SystemInt32_0: %SystemInt32, null
+    __lcl_ok_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_SystemString_7: %SystemString, null
+    __intnl_SystemString_8: %SystemString, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemString_9: %SystemString, null
+    __intnl_SystemString_10: %SystemString, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemString_11: %SystemString, null
+    __intnl_SystemString_12: %SystemString, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemStringArray_0: %SystemStringArray, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemString_13: %SystemString, null
+    __intnl_SystemTextStringBuilder_2: %SystemTextStringBuilder, null
+    __lcl_j_SystemInt32_1: %SystemInt32, null
+    __lcl_condition_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __lcl_j_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemString_14: %SystemString, null
+    __intnl_SystemString_15: %SystemString, null
+    __intnl_SystemString_16: %SystemString, null
+    __intnl_SystemString_17: %SystemString, null
+    __intnl_SystemString_18: %SystemString, null
+    __lcl_c_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __lcl_start_SystemInt64_0: %SystemInt64, null
+    __lcl_sum_SystemInt32_1: %SystemInt32, null
+    __lcl_ticks_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __lcl_expected_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __lcl_ok_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __intnl_SystemString_19: %SystemString, null
+    __intnl_SystemString_20: %SystemString, null
+    __intnl_SystemString_21: %SystemString, null
+    __intnl_SystemString_22: %SystemString, null
+    __intnl_SystemString_23: %SystemString, null
+    __intnl_SystemString_24: %SystemString, null
+    __intnl_SystemString_25: %SystemString, null
+    __intnl_SystemString_26: %SystemString, null
+    __intnl_SystemString_27: %SystemString, null
+    __intnl_SystemString_28: %SystemString, null
+    __intnl_SystemString_29: %SystemString, null
+    __intnl_SystemString_30: %SystemString, null
+    __intnl_SystemString_31: %SystemString, null
+    __intnl_SystemString_32: %SystemString, null
+    __intnl_SystemString_33: %SystemString, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemString_34: %SystemString, null
+    __intnl_SystemString_35: %SystemString, null
+    __intnl_SystemString_36: %SystemString, null
+    __intnl_SystemString_37: %SystemString, null
+    __intnl_SystemString_38: %SystemString, null
+    __intnl_SystemString_39: %SystemString, null
+    __intnl_SystemString_40: %SystemString, null
+    __intnl_SystemString_41: %SystemString, null
+    __intnl_SystemString_42: %SystemString, null
+    __intnl_SystemString_43: %SystemString, null
+    __intnl_SystemString_44: %SystemString, null
+    __intnl_SystemString_45: %SystemString, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_SystemStringArray_1: %SystemStringArray, null
+    __intnl_SystemTextStringBuilder_3: %SystemTextStringBuilder, null
+    __intnl_SystemString_46: %SystemString, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_SystemInt32_17: %SystemInt32, null
+    __intnl_SystemInt32_18: %SystemInt32, null
+    __intnl_SystemInt32_19: %SystemInt32, null
+    __intnl_SystemInt32_20: %SystemInt32, null
+    __intnl_SystemInt32_21: %SystemInt32, null
+    __intnl_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemString_47: %SystemString, null
+    __intnl_SystemString_48: %SystemString, null
+    __intnl_SystemInt32_22: %SystemInt32, null
+    __intnl_SystemString_49: %SystemString, null
+    __intnl_SystemTextStringBuilder_4: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __intnl_SystemBoolean_30: %SystemBoolean, null
+    __intnl_SystemBoolean_31: %SystemBoolean, null
+    __intnl_SystemBoolean_32: %SystemBoolean, null
+    __intnl_SystemString_50: %SystemString, null
+    __lcl_length_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_23: %SystemInt32, null
+    __intnl_SystemInt32_24: %SystemInt32, null
+    __intnl_SystemString_51: %SystemString, null
+    __intnl_SystemString_52: %SystemString, null
+    __intnl_SystemString_53: %SystemString, null
+    __intnl_SystemString_54: %SystemString, null
+    __intnl_SystemInt32_25: %SystemInt32, null
+    __intnl_SystemBoolean_33: %SystemBoolean, null
+    __intnl_SystemInt32_26: %SystemInt32, null
+    __intnl_SystemString_55: %SystemString, null
+    __intnl_SystemString_56: %SystemString, null
+    __intnl_SystemString_57: %SystemString, null
+    __intnl_SystemString_58: %SystemString, null
+    __intnl_SystemString_59: %SystemString, null
+    __lcl_sum_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_34: %SystemBoolean, null
+    __intnl_SystemBoolean_35: %SystemBoolean, null
+    __intnl_SystemUInt32_0: %SystemUInt32, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_36: %SystemBoolean, null
+    __intnl_SystemInt32_27: %SystemInt32, null
+    __intnl_SystemBoolean_37: %SystemBoolean, null
+    __intnl_SystemBoolean_38: %SystemBoolean, null
+    __intnl_SystemString_60: %SystemString, null
+    __intnl_SystemString_61: %SystemString, null
+    __intnl_SystemString_62: %SystemString, null
+    __intnl_SystemString_63: %SystemString, null
+    __intnl_SystemString_64: %SystemString, null
+    __intnl_SystemString_65: %SystemString, null
+    __intnl_SystemString_66: %SystemString, null
+    __intnl_SystemString_67: %SystemString, null
+    __intnl_SystemString_68: %SystemString, null
+    __intnl_SystemString_69: %SystemString, null
+    __intnl_SystemString_70: %SystemString, null
+    __intnl_SystemString_71: %SystemString, null
+    __intnl_SystemString_72: %SystemString, null
+    __intnl_SystemString_73: %SystemString, null
+    __lcl_text_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_39: %SystemBoolean, null
+    __lcl_j_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemBoolean_40: %SystemBoolean, null
+    __intnl_SystemString_74: %SystemString, null
+    __intnl_SystemString_75: %SystemString, null
+    __intnl_SystemString_76: %SystemString, null
+    __intnl_SystemString_77: %SystemString, null
+    __intnl_SystemString_78: %SystemString, null
+    __intnl_SystemInt32_28: %SystemInt32, null
+    __lcl_text_SystemString_1: %SystemString, null
+    __intnl_SystemBoolean_41: %SystemBoolean, null
+    __intnl_SystemBoolean_42: %SystemBoolean, null
+    __intnl_SystemBoolean_43: %SystemBoolean, null
+    __intnl_SystemString_79: %SystemString, null
+    __intnl_SystemString_80: %SystemString, null
+    __intnl_SystemString_81: %SystemString, null
+    __intnl_SystemString_82: %SystemString, null
+    __intnl_SystemString_83: %SystemString, null
+    __intnl_SystemString_84: %SystemString, null
+    __intnl_SystemString_85: %SystemString, null
+    __intnl_SystemString_86: %SystemString, null
+    __lcl_j_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemBoolean_44: %SystemBoolean, null
+    __intnl_SystemInt32_29: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_0: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_45: %SystemBoolean, null
+    __intnl_SystemBoolean_46: %SystemBoolean, null
+    __intnl_SystemBoolean_47: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_5: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_6: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_7: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_8: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_9: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_10: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_11: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_12: %SystemTextStringBuilder, null
+    __intnl_SystemString_87: %SystemString, null
+    __intnl_SystemString_88: %SystemString, null
+    __intnl_SystemString_89: %SystemString, null
+    __intnl_SystemString_90: %SystemString, null
+    __intnl_SystemString_91: %SystemString, null
+    __intnl_SystemString_92: %SystemString, null
+    __intnl_SystemString_93: %SystemString, null
+    __intnl_SystemString_94: %SystemString, null
+    __lcl_j_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemBoolean_48: %SystemBoolean, null
+    __intnl_SystemInt32_30: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_1: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_49: %SystemBoolean, null
+    __intnl_SystemBoolean_50: %SystemBoolean, null
+    __intnl_SystemBoolean_51: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_13: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_14: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_15: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_16: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_17: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_18: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_19: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_20: %SystemTextStringBuilder, null
+    __intnl_SystemString_95: %SystemString, null
+    __intnl_SystemString_96: %SystemString, null
+    __intnl_SystemString_97: %SystemString, null
+    __intnl_SystemString_98: %SystemString, null
+    __intnl_SystemString_99: %SystemString, null
+    __intnl_SystemString_100: %SystemString, null
+    __intnl_SystemString_101: %SystemString, null
+    __intnl_SystemString_102: %SystemString, null
+    __lcl_j_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemBoolean_52: %SystemBoolean, null
+    __intnl_SystemInt32_31: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_2: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_53: %SystemBoolean, null
+    __intnl_SystemBoolean_54: %SystemBoolean, null
+    __intnl_SystemBoolean_55: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_21: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_22: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_23: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_24: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_25: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_26: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_27: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_28: %SystemTextStringBuilder, null
+    __intnl_SystemString_103: %SystemString, null
+    __intnl_SystemString_104: %SystemString, null
+    __intnl_SystemString_105: %SystemString, null
+    __intnl_SystemString_106: %SystemString, null
+    __intnl_SystemString_107: %SystemString, null
+    __intnl_SystemString_108: %SystemString, null
+    __intnl_SystemString_109: %SystemString, null
+    __intnl_SystemString_110: %SystemString, null
+    __lcl_j_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemBoolean_56: %SystemBoolean, null
+    __intnl_SystemInt32_32: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_3: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_57: %SystemBoolean, null
+    __intnl_SystemBoolean_58: %SystemBoolean, null
+    __intnl_SystemBoolean_59: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_29: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_30: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_31: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_32: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_33: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_34: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_35: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_36: %SystemTextStringBuilder, null
+    __intnl_SystemString_111: %SystemString, null
+    __intnl_SystemString_112: %SystemString, null
+    __intnl_SystemString_113: %SystemString, null
+    __intnl_SystemString_114: %SystemString, null
+    __intnl_SystemString_115: %SystemString, null
+    __intnl_SystemString_116: %SystemString, null
+    __intnl_SystemString_117: %SystemString, null
+    __intnl_SystemString_118: %SystemString, null
+    __lcl_j_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemBoolean_60: %SystemBoolean, null
+    __intnl_SystemInt32_33: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_4: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_37: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_61: %SystemBoolean, null
+    __intnl_SystemBoolean_62: %SystemBoolean, null
+    __intnl_SystemBoolean_63: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_38: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_39: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_40: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_41: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_42: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_43: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_44: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_45: %SystemTextStringBuilder, null
+    __intnl_SystemString_119: %SystemString, null
+    __intnl_SystemString_120: %SystemString, null
+    __intnl_SystemString_121: %SystemString, null
+    __intnl_SystemString_122: %SystemString, null
+    __intnl_SystemString_123: %SystemString, null
+    __intnl_SystemString_124: %SystemString, null
+    __intnl_SystemString_125: %SystemString, null
+    __intnl_SystemString_126: %SystemString, null
+    __lcl_j_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemBoolean_64: %SystemBoolean, null
+    __intnl_SystemInt32_34: %SystemInt32, null
+    __lcl_sb_SystemTextStringBuilder_5: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_46: %SystemTextStringBuilder, null
+    __intnl_SystemBoolean_65: %SystemBoolean, null
+    __intnl_SystemBoolean_66: %SystemBoolean, null
+    __intnl_SystemBoolean_67: %SystemBoolean, null
+    __intnl_SystemTextStringBuilder_47: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_48: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_49: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_50: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_51: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_52: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_53: %SystemTextStringBuilder, null
+    __intnl_SystemTextStringBuilder_54: %SystemTextStringBuilder, null
+    __intnl_SystemString_127: %SystemString, null
+    __intnl_SystemString_128: %SystemString, null
+    __intnl_SystemString_129: %SystemString, null
+    __intnl_SystemString_130: %SystemString, null
+    __intnl_SystemString_131: %SystemString, null
+    __intnl_SystemString_132: %SystemString, null
+    __intnl_SystemString_133: %SystemString, null
+    __intnl_SystemString_134: %SystemString, null
+    __lcl_j_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemBoolean_68: %SystemBoolean, null
+    __intnl_SystemInt32_35: %SystemInt32, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.Start()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_0
+        PUSH, StartDelayFrames
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _Begin
+    _Begin:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark._Begin()
+# 
+        PUSH, _active
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000078
+        JUMP, 0x0000008C
+        PUSH, Complete
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        PUSH, __intnl_SystemBoolean_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000000b8
+        JUMP, 0x000000D8
+        PUSH, Warmups
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        PUSH, __intnl_SystemBoolean_2
+        COPY
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000104
+        JUMP, 0x00000124
+        PUSH, Warmups
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        PUSH, __intnl_SystemBoolean_1
+        COPY
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000150
+        JUMP, 0x00000170
+        PUSH, Batches
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        PUSH, __intnl_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000019c
+        JUMP, 0x000001BC
+        PUSH, Batches
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000001e0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _frequency
+        EXTERN, "SystemDiagnosticsStopwatch.__get_Frequency__SystemInt64"
+        PUSH, __const_SystemString_1
+        PUSH, _environment
+        COPY
+        PUSH, __const_SystemInt32_3
+        PUSH, _fragments
+        EXTERN, "SystemStringArray.__ctor__SystemInt32__SystemStringArray"
+        PUSH, __const_SystemInt32_4
+        PUSH, _labels
+        EXTERN, "SystemStringArray.__ctor__SystemInt32__SystemStringArray"
+        PUSH, __const_SystemInt32_4
+        PUSH, _values
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __const_SystemInt32_4
+        PUSH, _strings
+        EXTERN, "SystemStringArray.__ctor__SystemInt32__SystemStringArray"
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_0
+        COPY
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000348
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000278
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_0
+        COPY
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000004c4
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __const_SystemString_4
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __const_SystemInt32_7
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_j_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000035C
+        PUSH, _semantics
+        EXTERN, "SystemTextStringBuilder.__ctor____SystemTextStringBuilder"
+        PUSH, _semantics
+        PUSH, __const_SystemString_5
+        PUSH, __intnl_SystemTextStringBuilder_0
+        EXTERN, "SystemTextStringBuilder.__AppendLine__SystemString__SystemTextStringBuilder"
+        PUSH, __const_SystemBoolean_0
+        PUSH, _active
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _Preflight
+    _Preflight:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark._Preflight()
+# 
+        PUSH, _active
+        JUMP_IF_FALSE, 0x00000564
+        JUMP, 0x00000578
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_0
+# Calling App.StringBuildBenchmark.Setup()
+        JUMP, 0x00000E78
+        PUSH, __const_SystemInt32_8
+        PUSH, _n
+        COPY
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_c_SystemInt32_0
+        COPY
+        PUSH, __lcl_c_SystemInt32_0
+        PUSH, __const_SystemInt32_9
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000954
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __lcl_c_SystemInt32_0
+        PUSH, __0_c__param
+        COPY
+# Calling App.StringBuildBenchmark.Run(int)
+        JUMP, 0x000023B8
+        PUSH, __0___0_Run__ret
+        PUSH, __lcl_sum_SystemInt32_0
+        COPY
+        PUSH, LastOutput
+        PUSH, _expected
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000006a0
+        PUSH, _expected
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, _n
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_0
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        PUSH, __lcl_ok_SystemBoolean_0
+        COPY
+        PUSH, __lcl_ok_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000006cc
+        JUMP, 0x000006EC
+        PUSH, Failures
+        PUSH, __const_SystemInt32_0
+        PUSH, Failures
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _preflightInput
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_3
+        PUSH, _config
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_4
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_5
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _names
+        PUSH, __lcl_c_SystemInt32_0
+        PUSH, __intnl_SystemString_6
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_5
+        PUSH, __intnl_SystemString_6
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_7
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_8
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemString_8
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemString_9
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_9
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_10
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _expected
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemString_10
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemString_11
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_11
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_12
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+# Cow dirty
+        PUSH, _names
+        PUSH, __intnl_SystemStringArray_0
+        COPY
+# Cow dirty
+        PUSH, _semantics
+        PUSH, __intnl_SystemTextStringBuilder_1
+        COPY
+# Cow dirty
+        PUSH, _config
+        PUSH, __intnl_SystemInt32_8
+        COPY
+# Cow dirty
+        PUSH, _preflightInput
+        PUSH, __intnl_SystemInt32_9
+        COPY
+        PUSH, __lcl_ok_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000008d8
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_7
+        COPY
+        JUMP, 0x000008EC
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemInt32_7
+        COPY
+        PUSH, __intnl_SystemString_12
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemString_13
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_1
+        PUSH, __intnl_SystemString_13
+        PUSH, __intnl_SystemTextStringBuilder_2
+        EXTERN, "SystemTextStringBuilder.__AppendLine__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_c_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_c_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000005B0
+        PUSH, _config
+        PUSH, __const_SystemInt32_0
+        PUSH, _config
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _config
+        PUSH, __const_SystemInt32_10
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000afc
+        PUSH, __const_SystemInt32_5
+        PUSH, _config
+        COPY
+        PUSH, _preflightInput
+        PUSH, __const_SystemInt32_0
+        PUSH, _preflightInput
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_1
+        COPY
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000afc
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_11
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000009EC
+        PUSH, _preflightInput
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000b68
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_1
+        COPY
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000c8c
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __const_SystemInt32_7
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_j_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000B7C
+        PUSH, _semantics
+        PUSH, SemanticsCsv
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, Failures
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000d10
+        PUSH, __const_SystemString_8
+        PUSH, Status
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, _active
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _csv
+        EXTERN, "SystemTextStringBuilder.__ctor____SystemTextStringBuilder"
+        PUSH, _csv
+        PUSH, __const_SystemString_9
+        PUSH, __intnl_SystemTextStringBuilder_1
+        EXTERN, "SystemTextStringBuilder.__AppendLine__SystemString__SystemTextStringBuilder"
+        PUSH, __const_SystemInt32_5
+        PUSH, _config
+        COPY
+        PUSH, __const_SystemInt32_5
+        PUSH, _run
+        COPY
+        PUSH, __const_SystemInt32_5
+        PUSH, _phase
+        COPY
+        PUSH, __const_SystemInt32_5
+        PUSH, _position
+        COPY
+        PUSH, __gintnl_SystemUInt32_2
+# Calling App.StringBuildBenchmark.Setup()
+        JUMP, 0x00000E78
+        PUSH, __const_SystemBoolean_0
+        PUSH, _active
+        COPY
+        PUSH, __const_SystemString_10
+        PUSH, _frequency
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_3
+        PUSH, __const_SystemString_11
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemDiagnosticsStopwatch.__get_IsHighResolution__SystemBoolean"
+        PUSH, __intnl_SystemString_4
+        PUSH, __intnl_SystemBoolean_9
+        PUSH, __intnl_SystemString_5
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_5
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_12
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.Setup()
+# 
+        PUSH, _config
+        PUSH, __const_SystemInt32_3
+        PUSH, __lcl_condition_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000ee4
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, _workload
+        COPY
+        JUMP, 0x00000F44
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000f30
+        PUSH, __const_SystemInt32_8
+        PUSH, _workload
+        COPY
+        JUMP, 0x00000F44
+        PUSH, __const_SystemInt32_13
+        PUSH, _workload
+        COPY
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000f90
+        PUSH, __const_SystemInt32_0
+        PUSH, _lines
+        COPY
+        JUMP, 0x0000107C
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000ffc
+        PUSH, __const_SystemInt32_3
+        PUSH, _lines
+        COPY
+        JUMP, 0x0000107C
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00001068
+        PUSH, __const_SystemInt32_14
+        PUSH, _lines
+        COPY
+        JUMP, 0x0000107C
+        PUSH, __const_SystemInt32_4
+        PUSH, _lines
+        COPY
+        PUSH, __lcl_condition_SystemInt32_0
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x000010c8
+        PUSH, __const_SystemInt32_15
+        PUSH, _n
+        COPY
+        JUMP, 0x00001174
+        PUSH, _lines
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x00001114
+        PUSH, __const_SystemInt32_10
+        PUSH, _n
+        COPY
+        JUMP, 0x00001174
+        PUSH, _lines
+        PUSH, __const_SystemInt32_14
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00001160
+        PUSH, __const_SystemInt32_16
+        PUSH, _n
+        COPY
+        JUMP, 0x00001174
+        PUSH, __const_SystemInt32_8
+        PUSH, _n
+        COPY
+        PUSH, _config
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x000011c4
+        PUSH, _n
+        PUSH, __const_SystemInt32_16
+        PUSH, _n
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemString_13
+        PUSH, _expected
+        COPY
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001224
+        PUSH, __const_SystemString_14
+        PUSH, _expected
+        COPY
+        JUMP, 0x00001434
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001308
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_2
+        COPY
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001300
+        PUSH, _fragments
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __intnl_SystemString_14
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, _expected
+        PUSH, __intnl_SystemString_14
+        PUSH, _expected
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001268
+        JUMP, 0x00001434
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_2
+        COPY
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001434
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __intnl_SystemString_14
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_14
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemString_15
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __intnl_SystemString_16
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_15
+        PUSH, __intnl_SystemString_16
+        PUSH, __intnl_SystemString_17
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_17
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemString_18
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _expected
+        PUSH, __intnl_SystemString_18
+        PUSH, _expected
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000131C
+        PUSH, _expected
+        PUSH, _capacity
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, _capacity
+        PUSH, _reuse
+        EXTERN, "SystemTextStringBuilder.__ctor__SystemInt32__SystemTextStringBuilder"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _Next
+    _Next:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark._Next()
+# 
+        PUSH, _active
+        JUMP_IF_FALSE, 0x00001498
+        JUMP, 0x000014AC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _position
+        PUSH, _phase
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_c_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _run
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x0000153c
+        PUSH, __const_SystemInt32_9
+        PUSH, __lcl_c_SystemInt32_1
+        PUSH, __lcl_c_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_start_SystemInt64_0
+        EXTERN, "SystemDiagnosticsStopwatch.__GetTimestamp__SystemInt64"
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __lcl_c_SystemInt32_1
+        PUSH, __0_c__param
+        COPY
+# Calling App.StringBuildBenchmark.Run(int)
+        JUMP, 0x000023B8
+        PUSH, __0___0_Run__ret
+        PUSH, __lcl_sum_SystemInt32_1
+        COPY
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemDiagnosticsStopwatch.__GetTimestamp__SystemInt64"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __lcl_start_SystemInt64_0
+        PUSH, __lcl_ticks_SystemInt64_0
+        EXTERN, "SystemInt64.__op_Subtraction__SystemInt64_SystemInt64__SystemInt64"
+        PUSH, __lcl_c_SystemInt32_1
+        PUSH, __const_SystemInt32_9
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00001600
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_expected_SystemInt32_0
+        COPY
+        JUMP, 0x00001638
+        PUSH, _expected
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, _n
+        PUSH, __intnl_SystemInt32_13
+        PUSH, __lcl_expected_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_1
+        PUSH, __lcl_expected_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x000016d4
+        PUSH, __lcl_c_SystemInt32_1
+        PUSH, __const_SystemInt32_9
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x000016a0
+        JUMP, 0x000016C0
+        PUSH, LastOutput
+        PUSH, _expected
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        PUSH, __intnl_SystemBoolean_24
+        COPY
+        PUSH, __intnl_SystemBoolean_24
+        PUSH, __lcl_ok_SystemBoolean_1
+        COPY
+        PUSH, __lcl_ok_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00001700
+        JUMP, 0x00001720
+        PUSH, Failures
+        PUSH, __const_SystemInt32_0
+        PUSH, Failures
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _phase
+        PUSH, Warmups
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x00001c90
+        PUSH, __const_SystemString_17
+        PUSH, _environment
+        PUSH, __intnl_SystemString_19
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_19
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_20
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_20
+        PUSH, _config
+        PUSH, __intnl_SystemString_21
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_21
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_22
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_22
+        PUSH, _workload
+        PUSH, __intnl_SystemString_23
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_23
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_24
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_24
+        PUSH, _lines
+        PUSH, __intnl_SystemString_25
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_25
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_26
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_26
+        PUSH, _run
+        PUSH, __intnl_SystemString_27
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_27
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_28
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _names
+        PUSH, __lcl_c_SystemInt32_1
+        PUSH, __intnl_SystemString_29
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_28
+        PUSH, __intnl_SystemString_29
+        PUSH, __intnl_SystemString_30
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_30
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_31
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_31
+        PUSH, _position
+        PUSH, __intnl_SystemString_32
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_32
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_33
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _phase
+        PUSH, Warmups
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemString_33
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemString_34
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_34
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_35
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_35
+        PUSH, _n
+        PUSH, __intnl_SystemString_36
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_36
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_37
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_37
+        PUSH, __lcl_ticks_SystemInt64_0
+        PUSH, __intnl_SystemString_38
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_38
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_39
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_39
+        PUSH, _frequency
+        PUSH, __intnl_SystemString_40
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_40
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_41
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_41
+        PUSH, __lcl_sum_SystemInt32_1
+        PUSH, __intnl_SystemString_42
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_42
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_43
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_43
+        PUSH, __lcl_expected_SystemInt32_0
+        PUSH, __intnl_SystemString_44
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_44
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_45
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+# Cow dirty
+        PUSH, _names
+        PUSH, __intnl_SystemStringArray_1
+        COPY
+# Cow dirty
+        PUSH, _csv
+        PUSH, __intnl_SystemTextStringBuilder_3
+        COPY
+# Cow dirty
+        PUSH, _environment
+        PUSH, __intnl_SystemString_46
+        COPY
+# Cow dirty
+        PUSH, _config
+        PUSH, __intnl_SystemInt32_16
+        COPY
+# Cow dirty
+        PUSH, _run
+        PUSH, __intnl_SystemInt32_17
+        COPY
+# Cow dirty
+        PUSH, _position
+        PUSH, __intnl_SystemInt32_18
+        COPY
+# Cow dirty
+        PUSH, _n
+        PUSH, __intnl_SystemInt32_19
+        COPY
+# Cow dirty
+        PUSH, _workload
+        PUSH, __intnl_SystemInt32_20
+        COPY
+# Cow dirty
+        PUSH, _lines
+        PUSH, __intnl_SystemInt32_21
+        COPY
+# Cow dirty
+        PUSH, _frequency
+        PUSH, __intnl_SystemInt64_1
+        COPY
+        PUSH, __lcl_ok_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00001bc4
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_15
+        COPY
+        JUMP, 0x00001BD8
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemInt32_15
+        COPY
+        PUSH, __intnl_SystemString_45
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __intnl_SystemString_47
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_47
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_48
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _reuse
+        PUSH, __intnl_SystemInt32_22
+        EXTERN, "SystemTextStringBuilder.__get_Capacity__SystemInt32"
+        PUSH, __intnl_SystemString_48
+        PUSH, __intnl_SystemInt32_22
+        PUSH, __intnl_SystemString_49
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_3
+        PUSH, __intnl_SystemString_49
+        PUSH, __intnl_SystemTextStringBuilder_4
+        EXTERN, "SystemTextStringBuilder.__AppendLine__SystemString__SystemTextStringBuilder"
+        PUSH, Rows
+        PUSH, __const_SystemInt32_0
+        PUSH, Rows
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _position
+        PUSH, __const_SystemInt32_0
+        PUSH, _position
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _position
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x00001fa0
+        PUSH, __const_SystemInt32_5
+        PUSH, _position
+        COPY
+        PUSH, _phase
+        PUSH, __const_SystemInt32_0
+        PUSH, _phase
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, Warmups
+        PUSH, Batches
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _phase
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        JUMP_IF_FALSE, 0x00001fa0
+        PUSH, __const_SystemInt32_5
+        PUSH, _phase
+        COPY
+        PUSH, _run
+        PUSH, __const_SystemInt32_0
+        PUSH, _run
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _run
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x00001fa0
+        PUSH, __const_SystemInt32_5
+        PUSH, _run
+        COPY
+        PUSH, _config
+        PUSH, __const_SystemInt32_0
+        PUSH, _config
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _config
+        PUSH, __const_SystemInt32_10
+        PUSH, __intnl_SystemBoolean_30
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_30
+        JUMP_IF_FALSE, 0x00001f90
+        PUSH, __const_SystemBoolean_1
+        PUSH, _active
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, Complete
+        COPY
+        PUSH, _csv
+        PUSH, LastCsv
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, Failures
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_31
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_31
+        JUMP_IF_FALSE, 0x00001eb8
+        PUSH, __const_SystemString_18
+        PUSH, Status
+        COPY
+        JUMP, 0x00001ECC
+        PUSH, __const_SystemString_19
+        PUSH, Status
+        COPY
+        PUSH, __const_SystemString_20
+        PUSH, Status
+        PUSH, __intnl_SystemString_19
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_19
+        PUSH, __const_SystemString_21
+        PUSH, __intnl_SystemString_20
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_20
+        PUSH, Rows
+        PUSH, __intnl_SystemString_21
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_21
+        PUSH, __const_SystemString_22
+        PUSH, __intnl_SystemString_22
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_22
+        PUSH, Failures
+        PUSH, __intnl_SystemString_23
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_23
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_4
+# Calling App.StringBuildBenchmark.Setup()
+        JUMP, 0x00000E78
+        PUSH, __const_SystemString_23
+        PUSH, _config
+        PUSH, __intnl_SystemString_19
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_19
+        PUSH, __const_SystemString_24
+        PUSH, __intnl_SystemString_20
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_20
+        PUSH, _run
+        PUSH, __intnl_SystemString_21
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_21
+        PUSH, __const_SystemString_25
+        PUSH, __intnl_SystemString_22
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_22
+        PUSH, _phase
+        PUSH, __intnl_SystemString_23
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_23
+        PUSH, __const_SystemString_21
+        PUSH, __intnl_SystemString_24
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_24
+        PUSH, Rows
+        PUSH, Status
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_4
+        PUSH, __const_SystemString_12
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _ExportCsv
+    _ExportCsv:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark._ExportCsv()
+# 
+        PUSH, Complete
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x000020f4
+        JUMP, 0x00002128
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_50
+        COPY
+        PUSH, _exportText
+        PUSH, __intnl_SystemString_50
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x0000214c
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _exportText
+        PUSH, __intnl_SystemInt32_23
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_23
+        PUSH, _exportOffset
+        PUSH, __intnl_SystemInt32_24
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_17
+        PUSH, __intnl_SystemInt32_24
+        PUSH, __lcl_length_SystemInt32_0
+        EXTERN, "UnityEngineMathf.__Min__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemString_26
+        PUSH, _exportOffset
+        PUSH, __intnl_SystemString_51
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_51
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_SystemString_52
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _exportText
+        PUSH, _exportOffset
+        PUSH, __lcl_length_SystemInt32_0
+        PUSH, __intnl_SystemString_53
+        EXTERN, "SystemString.__Substring__SystemInt32_SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_52
+        PUSH, __intnl_SystemString_53
+        PUSH, __intnl_SystemString_54
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_54
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, _exportOffset
+        PUSH, __lcl_length_SystemInt32_0
+        PUSH, _exportOffset
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _exportText
+        PUSH, __intnl_SystemInt32_25
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, _exportOffset
+        PUSH, __intnl_SystemInt32_25
+        PUSH, __intnl_SystemBoolean_33
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_33
+        JUMP_IF_FALSE, 0x000022d4
+        PUSH, __this_VRCUdonUdonBehaviour_5
+        PUSH, __const_SystemString_28
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        JUMP, 0x0000239C
+        PUSH, _exportText
+        PUSH, __intnl_SystemInt32_26
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __const_SystemString_29
+        PUSH, __intnl_SystemInt32_26
+        PUSH, __intnl_SystemString_55
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_55
+        PUSH, __const_SystemString_21
+        PUSH, __intnl_SystemString_56
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_56
+        PUSH, Rows
+        PUSH, __intnl_SystemString_57
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_57
+        PUSH, __const_SystemString_22
+        PUSH, __intnl_SystemString_58
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_58
+        PUSH, Failures
+        PUSH, __intnl_SystemString_59
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_59
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.Run(int)
+# 
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_sum_SystemInt32_2
+        COPY
+        PUSH, __0_c__param
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_34
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_34
+        JUMP_IF_FALSE, 0x00002ba4
+        PUSH, __0_c__param
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_35
+        EXTERN, "SystemInt32.__op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_35
+        JUMP_IF_FALSE, 0x00002ba4
+        PUSH, __gintnl_SystemUInt32Array_0
+        PUSH, __0_c__param
+        PUSH, __intnl_SystemUInt32_0
+        EXTERN, "SystemUInt32Array.__Get__SystemInt32__SystemUInt32"
+        JUMP_INDIRECT, __intnl_SystemUInt32_0
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x0000251c
+        PUSH, __gintnl_SystemUInt32_5
+# Calling App.StringBuildBenchmark.Baseline()
+        JUMP, 0x00002BE8
+        PUSH, __0_Baseline__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002468
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x000025ec
+        PUSH, __gintnl_SystemUInt32_6
+# Calling App.StringBuildBenchmark.PlusExpression()
+        JUMP, 0x00002C2C
+        PUSH, __0_PlusExpression__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002538
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x000026bc
+        PUSH, __gintnl_SystemUInt32_7
+# Calling App.StringBuildBenchmark.PlusSteps()
+        JUMP, 0x000031A8
+        PUSH, __0_PlusSteps__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002608
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x0000278c
+        PUSH, __gintnl_SystemUInt32_8
+# Calling App.StringBuildBenchmark.SbNewSplit()
+        JUMP, 0x00003818
+        PUSH, __0_SbNewSplit__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000026D8
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x0000285c
+        PUSH, __gintnl_SystemUInt32_9
+# Calling App.StringBuildBenchmark.SbNewChain()
+        JUMP, 0x00003E70
+        PUSH, __0_SbNewChain__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000027A8
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x0000292c
+        PUSH, __gintnl_SystemUInt32_10
+# Calling App.StringBuildBenchmark.SbCapacitySplit()
+        JUMP, 0x000044C8
+        PUSH, __0_SbCapacitySplit__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002878
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x000029fc
+        PUSH, __gintnl_SystemUInt32_11
+# Calling App.StringBuildBenchmark.SbCapacityChain()
+        JUMP, 0x00004B28
+        PUSH, __0_SbCapacityChain__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002948
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x00002acc
+        PUSH, __gintnl_SystemUInt32_12
+# Calling App.StringBuildBenchmark.SbReuseSplit()
+        JUMP, 0x00005188
+        PUSH, __0_SbReuseSplit__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002A18
+        JUMP, 0x00002BA4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, _n
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x00002b9c
+        PUSH, __gintnl_SystemUInt32_13
+# Calling App.StringBuildBenchmark.SbReuseChain()
+        JUMP, 0x000057FC
+        PUSH, __0_SbReuseChain__ret
+        PUSH, LastOutput
+        COPY
+        PUSH, LastOutput
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __lcl_sum_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002AE8
+        JUMP, 0x00002BA4
+        PUSH, __lcl_sum_SystemInt32_2
+        PUSH, __0___0_Run__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.Baseline()
+# 
+        PUSH, _expected
+        PUSH, __0_Baseline__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.PlusExpression()
+# 
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_37
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_37
+        JUMP_IF_FALSE, 0x00002c84
+        PUSH, __const_SystemString_14
+        PUSH, __0_PlusExpression__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_38
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_38
+        JUMP_IF_FALSE, 0x00002ea8
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_60
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_61
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_60
+        PUSH, __intnl_SystemString_61
+        PUSH, __intnl_SystemString_62
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_63
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_62
+        PUSH, __intnl_SystemString_63
+        PUSH, __intnl_SystemString_64
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_65
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_64
+        PUSH, __intnl_SystemString_65
+        PUSH, __intnl_SystemString_66
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_67
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_66
+        PUSH, __intnl_SystemString_67
+        PUSH, __intnl_SystemString_68
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_69
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_68
+        PUSH, __intnl_SystemString_69
+        PUSH, __intnl_SystemString_70
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_71
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_70
+        PUSH, __intnl_SystemString_71
+        PUSH, __intnl_SystemString_72
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_73
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_72
+        PUSH, __intnl_SystemString_73
+        PUSH, __0_PlusExpression__ret
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemString_13
+        PUSH, __lcl_text_SystemString_0
+        COPY
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_39
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_39
+        JUMP_IF_FALSE, 0x00003020
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_3
+        COPY
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_40
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_40
+        JUMP_IF_FALSE, 0x00003018
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __intnl_SystemString_74
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_74
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemString_75
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __intnl_SystemString_76
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_75
+        PUSH, __intnl_SystemString_76
+        PUSH, __intnl_SystemString_77
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_77
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemString_78
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_0
+        PUSH, __intnl_SystemString_78
+        PUSH, __lcl_text_SystemString_0
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002F00
+        JUMP, 0x00003164
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_3
+        COPY
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_40
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_40
+        JUMP_IF_FALSE, 0x00003164
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __intnl_SystemString_74
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_74
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemString_75
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __intnl_SystemInt32_28
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_28
+        PUSH, __intnl_SystemString_76
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __intnl_SystemString_75
+        PUSH, __intnl_SystemString_76
+        PUSH, __intnl_SystemString_77
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_77
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemString_78
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_0
+        PUSH, __intnl_SystemString_78
+        PUSH, __lcl_text_SystemString_0
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_3
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00003034
+        PUSH, __lcl_text_SystemString_0
+        PUSH, __0_PlusExpression__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.PlusSteps()
+# 
+        PUSH, __const_SystemString_13
+        PUSH, __lcl_text_SystemString_1
+        COPY
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_41
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_41
+        JUMP_IF_FALSE, 0x000032f4
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_30
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_31
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_32
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_33
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_34
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_35
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_36
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_37
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        JUMP, 0x000037D4
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_42
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_42
+        JUMP_IF_FALSE, 0x0000352c
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_79
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_79
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_80
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_80
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_81
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_81
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_82
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_82
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_83
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_83
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_84
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_84
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_85
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_85
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_86
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_86
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        JUMP, 0x000037D4
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_43
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_43
+        JUMP_IF_FALSE, 0x00003690
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_4
+        COPY
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_44
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_44
+        JUMP_IF_FALSE, 0x00003688
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __intnl_SystemString_79
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_79
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_15
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __intnl_SystemString_80
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_80
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_16
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00003570
+        JUMP, 0x000037D4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_4
+        COPY
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_44
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_44
+        JUMP_IF_FALSE, 0x000037d4
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __intnl_SystemString_79
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_79
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_15
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __intnl_SystemInt32_29
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_29
+        PUSH, __intnl_SystemString_80
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __intnl_SystemString_80
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __const_SystemString_16
+        PUSH, __lcl_text_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_j_SystemInt32_4
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000036A4
+        PUSH, __lcl_text_SystemString_1
+        PUSH, __0_PlusSteps__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbNewSplit()
+# 
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        EXTERN, "SystemTextStringBuilder.__ctor____SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_45
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_45
+        JUMP_IF_FALSE, 0x00003960
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_5
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_6
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_7
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_8
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_9
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_10
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_11
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_12
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00003E28
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_46
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_46
+        JUMP_IF_FALSE, 0x00003b98
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_87
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_87
+        PUSH, __intnl_SystemTextStringBuilder_5
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_88
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_88
+        PUSH, __intnl_SystemTextStringBuilder_6
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_89
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_89
+        PUSH, __intnl_SystemTextStringBuilder_7
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_90
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_90
+        PUSH, __intnl_SystemTextStringBuilder_8
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_91
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_91
+        PUSH, __intnl_SystemTextStringBuilder_9
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_92
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_92
+        PUSH, __intnl_SystemTextStringBuilder_10
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_93
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_93
+        PUSH, __intnl_SystemTextStringBuilder_11
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_94
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_94
+        PUSH, __intnl_SystemTextStringBuilder_12
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00003E28
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_47
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_47
+        JUMP_IF_FALSE, 0x00003cfc
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_5
+        COPY
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_48
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_48
+        JUMP_IF_FALSE, 0x00003cf4
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __intnl_SystemString_87
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_87
+        PUSH, __intnl_SystemTextStringBuilder_5
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_6
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __intnl_SystemString_88
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_88
+        PUSH, __intnl_SystemTextStringBuilder_7
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_8
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_5
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00003BDC
+        JUMP, 0x00003E28
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_5
+        COPY
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_48
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_48
+        JUMP_IF_FALSE, 0x00003e28
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __intnl_SystemString_87
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemString_87
+        PUSH, __intnl_SystemTextStringBuilder_5
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_6
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __intnl_SystemInt32_30
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __intnl_SystemInt32_30
+        PUSH, __intnl_SystemTextStringBuilder_7
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_8
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_5
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_5
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00003D10
+        PUSH, __lcl_sb_SystemTextStringBuilder_0
+        PUSH, __0_SbNewSplit__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbNewChain()
+# 
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        EXTERN, "SystemTextStringBuilder.__ctor____SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_49
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_49
+        JUMP_IF_FALSE, 0x00003fb8
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_13
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_13
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_14
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_14
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_15
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_15
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_16
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_16
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_17
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_17
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_18
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_18
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_19
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_19
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_20
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00004480
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_50
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_50
+        JUMP_IF_FALSE, 0x000041f0
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_95
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        PUSH, __intnl_SystemString_95
+        PUSH, __intnl_SystemTextStringBuilder_13
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_96
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_13
+        PUSH, __intnl_SystemString_96
+        PUSH, __intnl_SystemTextStringBuilder_14
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_97
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_14
+        PUSH, __intnl_SystemString_97
+        PUSH, __intnl_SystemTextStringBuilder_15
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_98
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_15
+        PUSH, __intnl_SystemString_98
+        PUSH, __intnl_SystemTextStringBuilder_16
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_99
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_16
+        PUSH, __intnl_SystemString_99
+        PUSH, __intnl_SystemTextStringBuilder_17
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_100
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_17
+        PUSH, __intnl_SystemString_100
+        PUSH, __intnl_SystemTextStringBuilder_18
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_101
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_18
+        PUSH, __intnl_SystemString_101
+        PUSH, __intnl_SystemTextStringBuilder_19
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_102
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_19
+        PUSH, __intnl_SystemString_102
+        PUSH, __intnl_SystemTextStringBuilder_20
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00004480
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_51
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_51
+        JUMP_IF_FALSE, 0x00004354
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_6
+        COPY
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_52
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_52
+        JUMP_IF_FALSE, 0x0000434c
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __intnl_SystemString_95
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        PUSH, __intnl_SystemString_95
+        PUSH, __intnl_SystemTextStringBuilder_13
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_13
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_14
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __intnl_SystemString_96
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_14
+        PUSH, __intnl_SystemString_96
+        PUSH, __intnl_SystemTextStringBuilder_15
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_15
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_16
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004234
+        JUMP, 0x00004480
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_6
+        COPY
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_52
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_52
+        JUMP_IF_FALSE, 0x00004480
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __intnl_SystemString_95
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        PUSH, __intnl_SystemString_95
+        PUSH, __intnl_SystemTextStringBuilder_13
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_13
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_14
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __intnl_SystemInt32_31
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemTextStringBuilder_14
+        PUSH, __intnl_SystemInt32_31
+        PUSH, __intnl_SystemTextStringBuilder_15
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_15
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_16
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004368
+        PUSH, __lcl_sb_SystemTextStringBuilder_1
+        PUSH, __0_SbNewChain__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbCapacitySplit()
+# 
+        PUSH, _capacity
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        EXTERN, "SystemTextStringBuilder.__ctor__SystemInt32__SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_53
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_53
+        JUMP_IF_FALSE, 0x00004618
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_21
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_22
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_23
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_24
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_25
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_26
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_27
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_28
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00004AE0
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_54
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_54
+        JUMP_IF_FALSE, 0x00004850
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_103
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_103
+        PUSH, __intnl_SystemTextStringBuilder_21
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_104
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_104
+        PUSH, __intnl_SystemTextStringBuilder_22
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_105
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_105
+        PUSH, __intnl_SystemTextStringBuilder_23
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_106
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_106
+        PUSH, __intnl_SystemTextStringBuilder_24
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_107
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_107
+        PUSH, __intnl_SystemTextStringBuilder_25
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_108
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_108
+        PUSH, __intnl_SystemTextStringBuilder_26
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_109
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_109
+        PUSH, __intnl_SystemTextStringBuilder_27
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_110
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_110
+        PUSH, __intnl_SystemTextStringBuilder_28
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00004AE0
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_55
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_55
+        JUMP_IF_FALSE, 0x000049b4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_7
+        COPY
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_56
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_56
+        JUMP_IF_FALSE, 0x000049ac
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __intnl_SystemString_103
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_103
+        PUSH, __intnl_SystemTextStringBuilder_21
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_22
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __intnl_SystemString_104
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_104
+        PUSH, __intnl_SystemTextStringBuilder_23
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_24
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004894
+        JUMP, 0x00004AE0
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_7
+        COPY
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_56
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_56
+        JUMP_IF_FALSE, 0x00004ae0
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __intnl_SystemString_103
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemString_103
+        PUSH, __intnl_SystemTextStringBuilder_21
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_22
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __intnl_SystemInt32_32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __intnl_SystemInt32_32
+        PUSH, __intnl_SystemTextStringBuilder_23
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_24
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_7
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000049C8
+        PUSH, __lcl_sb_SystemTextStringBuilder_2
+        PUSH, __0_SbCapacitySplit__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbCapacityChain()
+# 
+        PUSH, _capacity
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        EXTERN, "SystemTextStringBuilder.__ctor__SystemInt32__SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_57
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_57
+        JUMP_IF_FALSE, 0x00004c78
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_29
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_29
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_30
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_30
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_31
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_31
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_32
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_32
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_33
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_33
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_34
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_34
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_35
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_35
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_36
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00005140
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_58
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_58
+        JUMP_IF_FALSE, 0x00004eb0
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_111
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        PUSH, __intnl_SystemString_111
+        PUSH, __intnl_SystemTextStringBuilder_29
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_112
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_29
+        PUSH, __intnl_SystemString_112
+        PUSH, __intnl_SystemTextStringBuilder_30
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_113
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_30
+        PUSH, __intnl_SystemString_113
+        PUSH, __intnl_SystemTextStringBuilder_31
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_114
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_31
+        PUSH, __intnl_SystemString_114
+        PUSH, __intnl_SystemTextStringBuilder_32
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_115
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_32
+        PUSH, __intnl_SystemString_115
+        PUSH, __intnl_SystemTextStringBuilder_33
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_116
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_33
+        PUSH, __intnl_SystemString_116
+        PUSH, __intnl_SystemTextStringBuilder_34
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_117
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_34
+        PUSH, __intnl_SystemString_117
+        PUSH, __intnl_SystemTextStringBuilder_35
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_118
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_35
+        PUSH, __intnl_SystemString_118
+        PUSH, __intnl_SystemTextStringBuilder_36
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00005140
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_59
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_59
+        JUMP_IF_FALSE, 0x00005014
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_8
+        COPY
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_60
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_60
+        JUMP_IF_FALSE, 0x0000500c
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __intnl_SystemString_111
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        PUSH, __intnl_SystemString_111
+        PUSH, __intnl_SystemTextStringBuilder_29
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_29
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_30
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __intnl_SystemString_112
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_30
+        PUSH, __intnl_SystemString_112
+        PUSH, __intnl_SystemTextStringBuilder_31
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_31
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_32
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004EF4
+        JUMP, 0x00005140
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_8
+        COPY
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_60
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_60
+        JUMP_IF_FALSE, 0x00005140
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __intnl_SystemString_111
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        PUSH, __intnl_SystemString_111
+        PUSH, __intnl_SystemTextStringBuilder_29
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_29
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_30
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __intnl_SystemInt32_33
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemTextStringBuilder_30
+        PUSH, __intnl_SystemInt32_33
+        PUSH, __intnl_SystemTextStringBuilder_31
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_31
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_32
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_8
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00005028
+        PUSH, __lcl_sb_SystemTextStringBuilder_3
+        PUSH, __0_SbCapacityChain__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbReuseSplit()
+# 
+        PUSH, _reuse
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        COPY
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemTextStringBuilder_37
+        EXTERN, "SystemTextStringBuilder.__Clear__SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_61
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_61
+        JUMP_IF_FALSE, 0x000052ec
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_38
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_39
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_40
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_41
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_42
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_43
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_44
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_45
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x000057B4
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_62
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_62
+        JUMP_IF_FALSE, 0x00005524
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_119
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_119
+        PUSH, __intnl_SystemTextStringBuilder_38
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_120
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_120
+        PUSH, __intnl_SystemTextStringBuilder_39
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_121
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_121
+        PUSH, __intnl_SystemTextStringBuilder_40
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_122
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_122
+        PUSH, __intnl_SystemTextStringBuilder_41
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_123
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_123
+        PUSH, __intnl_SystemTextStringBuilder_42
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_124
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_124
+        PUSH, __intnl_SystemTextStringBuilder_43
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_125
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_125
+        PUSH, __intnl_SystemTextStringBuilder_44
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_126
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_126
+        PUSH, __intnl_SystemTextStringBuilder_45
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x000057B4
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_63
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_63
+        JUMP_IF_FALSE, 0x00005688
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_9
+        COPY
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_64
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_64
+        JUMP_IF_FALSE, 0x00005680
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __intnl_SystemString_119
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_119
+        PUSH, __intnl_SystemTextStringBuilder_38
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_39
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __intnl_SystemString_120
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_120
+        PUSH, __intnl_SystemTextStringBuilder_40
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_41
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00005568
+        JUMP, 0x000057B4
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_9
+        COPY
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_64
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_64
+        JUMP_IF_FALSE, 0x000057b4
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __intnl_SystemString_119
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemString_119
+        PUSH, __intnl_SystemTextStringBuilder_38
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_39
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __intnl_SystemInt32_34
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __intnl_SystemInt32_34
+        PUSH, __intnl_SystemTextStringBuilder_40
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_41
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_9
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000569C
+        PUSH, __lcl_sb_SystemTextStringBuilder_4
+        PUSH, __0_SbReuseSplit__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# App.StringBuildBenchmark.SbReuseChain()
+# 
+        PUSH, _reuse
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        COPY
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __intnl_SystemTextStringBuilder_46
+        EXTERN, "SystemTextStringBuilder.__Clear__SystemTextStringBuilder"
+        PUSH, _workload
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_65
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_65
+        JUMP_IF_FALSE, 0x00005960
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemTextStringBuilder_47
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_47
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemTextStringBuilder_48
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_48
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemTextStringBuilder_49
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_49
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemTextStringBuilder_50
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_50
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemTextStringBuilder_51
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_51
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemTextStringBuilder_52
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_52
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemTextStringBuilder_53
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_53
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemTextStringBuilder_54
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00005E28
+        PUSH, _workload
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_66
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_66
+        JUMP_IF_FALSE, 0x00005b98
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemString_127
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __intnl_SystemString_127
+        PUSH, __intnl_SystemTextStringBuilder_47
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_128
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_47
+        PUSH, __intnl_SystemString_128
+        PUSH, __intnl_SystemTextStringBuilder_48
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemString_129
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_48
+        PUSH, __intnl_SystemString_129
+        PUSH, __intnl_SystemTextStringBuilder_49
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_13
+        PUSH, __intnl_SystemString_130
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_49
+        PUSH, __intnl_SystemString_130
+        PUSH, __intnl_SystemTextStringBuilder_50
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_16
+        PUSH, __intnl_SystemString_131
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_50
+        PUSH, __intnl_SystemString_131
+        PUSH, __intnl_SystemTextStringBuilder_51
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_12
+        PUSH, __intnl_SystemString_132
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_51
+        PUSH, __intnl_SystemString_132
+        PUSH, __intnl_SystemTextStringBuilder_52
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_18
+        PUSH, __intnl_SystemString_133
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_52
+        PUSH, __intnl_SystemString_133
+        PUSH, __intnl_SystemTextStringBuilder_53
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _fragments
+        PUSH, __const_SystemInt32_19
+        PUSH, __intnl_SystemString_134
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_53
+        PUSH, __intnl_SystemString_134
+        PUSH, __intnl_SystemTextStringBuilder_54
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        JUMP, 0x00005E28
+        PUSH, _workload
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_67
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_67
+        JUMP_IF_FALSE, 0x00005cfc
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_10
+        COPY
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_68
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_68
+        JUMP_IF_FALSE, 0x00005cf4
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __intnl_SystemString_127
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __intnl_SystemString_127
+        PUSH, __intnl_SystemTextStringBuilder_47
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_47
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_48
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _strings
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __intnl_SystemString_128
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemTextStringBuilder_48
+        PUSH, __intnl_SystemString_128
+        PUSH, __intnl_SystemTextStringBuilder_49
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_49
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_50
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00005BDC
+        JUMP, 0x00005E28
+        PUSH, __const_SystemInt32_5
+        PUSH, __lcl_j_SystemInt32_10
+        COPY
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, _lines
+        PUSH, __intnl_SystemBoolean_68
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_68
+        JUMP_IF_FALSE, 0x00005e28
+        PUSH, _labels
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __intnl_SystemString_127
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __intnl_SystemString_127
+        PUSH, __intnl_SystemTextStringBuilder_47
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_47
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemTextStringBuilder_48
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, _values
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __intnl_SystemInt32_35
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemTextStringBuilder_48
+        PUSH, __intnl_SystemInt32_35
+        PUSH, __intnl_SystemTextStringBuilder_49
+        EXTERN, "SystemTextStringBuilder.__Append__SystemInt32__SystemTextStringBuilder"
+        PUSH, __intnl_SystemTextStringBuilder_49
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemTextStringBuilder_50
+        EXTERN, "SystemTextStringBuilder.__Append__SystemString__SystemTextStringBuilder"
+        PUSH, __lcl_j_SystemInt32_10
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_j_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00005D10
+        PUSH, __lcl_sb_SystemTextStringBuilder_5
+        PUSH, __0_SbReuseChain__ret
+        EXTERN, "SystemTextStringBuilder.__ToString__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end
