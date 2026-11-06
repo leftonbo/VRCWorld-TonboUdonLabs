@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "result": {
+    "success": true,
+    "selectedGameObjects": {
+      "count": 0,
+      "objects": []
+    },
+    "selectedAssets": {
+      "count": 0,
+      "assets": []
+    },
+    "activeScene": {
+      "name": "StringBuildExperiment",
+      "path": "Assets/App/World/Scenes/StringBuildExperiment.unity",
+      "isDirty": false
+    },
+    "focusedWindow": "SceneHierarchyWindow",
+    "isPlaying": false,
+    "isCompiling": false
+  }
+}

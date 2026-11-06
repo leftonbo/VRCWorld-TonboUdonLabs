@@ -1,0 +1,117 @@
+.data_start
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Input: %SystemInt32, null
+    Result: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+.data_end
+.code_start
+    .export ConstA
+    ConstA:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.ConstA()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_0
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ConstB
+    ConstB:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.ConstB()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, Input
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Literal
+    Literal:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.Literal()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_0
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Parenthesized
+    Parenthesized:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.Parenthesized()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_0
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DivisionConst
+    DivisionConst:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.DivisionConst()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_1
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DivisionLiteral
+    DivisionLiteral:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.DivisionLiteral()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_1
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export NestedConst
+    NestedConst:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.NestedConst()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_2
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export LocalConst
+    LocalConst:
+        PUSH, __const_SystemUInt32_0
+# 
+# App.ConstExpressionProbe.LocalConst()
+# 
+        PUSH, Input
+        PUSH, __const_SystemInt32_0
+        PUSH, Result
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

@@ -1,0 +1,16 @@
+{
+  "measured_at": "2026-11-06T21:36:30.9873922+09:00",
+  "git_head": "ab2aad37a142175a0eb5a68542769306c262ad47",
+  "os": "Microsoft Windows 11 Home",
+  "cpu": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+  "unity": "2022.3.22f1",
+  "sdk_worlds": "3.10.6",
+  "sdk_base": "3.10.6",
+  "udonsharp": "Worlds SDK 3.10.6 bundled source; UdonSharp.Editor assembly 0.0.0.0",
+  "initial_git_status": "clean; no staged changes",
+  "initial_scene": "Assets/App/World/Scenes/StringBuildExperiment.unity",
+  "initial_scene_dirty": false,
+  "initial_play_mode": false,
+  "execution": "SDK Udon VM in Edit mode; not C# proxy; not ClientSim or VRChat client",
+  "timing_measurement": false
+}
